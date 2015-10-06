@@ -9,8 +9,22 @@ use warnings;
 # subject will be the subject line of your email
 my $from = 'sales@studentsofstrength.com';
 my $to = $ARGV[0];
-my $subject = 'Students of Strength';
-my $text = 'Hi this is a working test, and I hope it works!';
+my $subject = '';
+my $text = '';
+my $msgFile = 'msg.csv';
+my $subjFile = 'subj.csv';
+open(my $msgData, '<:encoding(UTF-8)', $msgFile) or die "Could not open '$msgFile' $!\n";
+
+while (my $msgLine = <$msgData>) {
+    chomp $msgLine;
+    $text = $msgLine;
+}
+
+open(my $subjData, '<:encoding(UTF-8)', $subjFile) or die "Could not open '$subjFile' $!\n";
+while (my $subjLine = <$subjData>) {
+    chomp $subjLine;
+    $subject = $subjLine;
+}
 
 # Create the MIME message that will be sent. Check out MIME::Entity on CPAN for more details
 my $mime = MIME::Entity->build(Type  => 'multipart/alternative',
