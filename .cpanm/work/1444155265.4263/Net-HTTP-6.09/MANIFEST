@@ -1,0 +1,15 @@
+Changes
+lib/Net/HTTP.pm
+lib/Net/HTTP/Methods.pm
+lib/Net/HTTP/NB.pm
+lib/Net/HTTPS.pm
+Makefile.PL
+MANIFEST			This list of files
+MANIFEST.SKIP
+README
+t/apache-https.t
+t/apache.t
+t/http-nb.t
+t/http.t
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)

@@ -1,0 +1,54 @@
+cpanm (App::cpanminus) 1.7001 on perl 5.018002 built for x86_64-linux-gnu-thread-multi
+Work directory is /home/ubuntu/.cpanm/work/1444156146.5195
+You have /usr/bin/wget
+You have /bin/tar: tar (GNU tar) 1.27.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by John Gilmore and Jay Fenlason.
+Searching Authen::SASL on cpanmetadb ...
+--> Working on Authen::SASL
+Fetching http://www.cpan.org/authors/id/G/GB/GBARR/Authen-SASL-2.16.tar.gz
+-> OK
+Unpacking Authen-SASL-2.16.tar.gz
+Entering Authen-SASL-2.16
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 6.42 ... Yes (6.66)
+Configuring Authen-SASL-2.16
+Running Makefile.PL
+Warning: prerequisite Digest::HMAC_MD5 0 not found.
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Authen::SASL
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 6.42 ... Yes (6.66)
+Checking if you have Digest::MD5 0 ... Yes (2.52)
+Checking if you have Digest::HMAC_MD5 0 ... No
+Checking if you have Test::More 0 ... Yes (0.98)
+==> Found dependencies: Digest::HMAC_MD5
+Searching Digest::HMAC_MD5 on cpanmetadb ...
+--> Working on Digest::HMAC_MD5
+Fetching http://www.cpan.org/authors/id/G/GA/GAAS/Digest-HMAC-1.03.tar.gz
+-> OK
+Unpacking Digest-HMAC-1.03.tar.gz
+Entering Digest-HMAC-1.03
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring Digest-HMAC-1.03
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Digest::HMAC
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Digest::SHA 1 ... Yes (5.84_01)
+Checking if you have Digest::MD5 2 ... Yes (2.52)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+-> FAIL Can't configure the distribution. You probably need to have 'make'. See /home/ubuntu/.cpanm/work/1444156146.5195/build.log for details.
+-> FAIL Installing the dependencies failed: Module 'Digest::HMAC_MD5' is not installed
+-> FAIL Bailing out the installation for Authen-SASL-2.16.

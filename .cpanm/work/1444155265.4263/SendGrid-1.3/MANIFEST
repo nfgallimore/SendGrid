@@ -1,0 +1,25 @@
+.travis.yml
+inc/Module/Install.pm
+inc/Module/Install/Base.pm
+inc/Module/Install/Can.pm
+inc/Module/Install/Fetch.pm
+inc/Module/Install/Makefile.pm
+inc/Module/Install/Metadata.pm
+inc/Module/Install/Win32.pm
+inc/Module/Install/WriteAll.pm
+lib/Email/SendGrid.pm
+lib/Email/SendGrid/Header.pm
+lib/Email/SendGrid/Transport/REST.pm
+lib/Email/SendGrid/Transport/Sendmail.pm
+lib/Email/SendGrid/Transport/SMTP.pm
+Makefile.PL
+MANIFEST			This list of files
+META.yml
+README.md
+SendGrid-1.3.tar.gz
+t/lib/Email/SendGrid/Header/Test.pm
+t/lib/Email/SendGrid/Test.pm
+t/lib/Email/SendGrid/Transport/REST/Test.pm
+t/lib/Email/SendGrid/Transport/SMTP/Test.pm
+t/lib/Mock/Net/SMTP/TLS.pm
+t/test.t

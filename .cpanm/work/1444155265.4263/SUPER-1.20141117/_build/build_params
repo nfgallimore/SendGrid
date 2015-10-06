@@ -1,0 +1,126 @@
+do{ my $x = [
+       {
+         'ARGV' => []
+       },
+       {},
+       {
+         'build_elements' => [
+                               'PL',
+                               'support',
+                               'pm',
+                               'xs',
+                               'share_dir',
+                               'pod',
+                               'script'
+                             ],
+         'get_options' => {},
+         'tap_harness_args' => {},
+         'no_index' => {
+                         'package' => [
+                                        'UNIVERSAL',
+                                        'DB'
+                                      ]
+                       },
+         'auto_configure_requires' => 1,
+         'mymetafile' => 'MYMETA.yml',
+         'c_source' => undef,
+         'perl' => '/usr/bin/perl',
+         'recursive_test_files' => undef,
+         'program_name' => undef,
+         'build_script' => 'Build',
+         'libdoc_dirs' => [
+                            'blib/lib',
+                            'blib/arch'
+                          ],
+         'pm_files' => undef,
+         'license' => 'perl',
+         'metafile' => 'META.yml',
+         'magic_number' => undef,
+         'quiet' => undef,
+         'allow_mb_mismatch' => 0,
+         'orig_dir' => '/home/ubuntu/.cpanm/work/1444155265.4263/SUPER-1.20141117',
+         'debugger' => undef,
+         'conflicts' => {},
+         'create_packlist' => 1,
+         'test_file_exts' => [
+                               '.t'
+                             ],
+         'autosplit' => undef,
+         'test_files' => undef,
+         'prefix' => undef,
+         'cpan_client' => 'cpan',
+         'create_license' => undef,
+         'dist_abstract' => undef,
+         'dist_version' => '1.20141117',
+         'use_rcfile' => 1,
+         'mymetafile2' => 'MYMETA.json',
+         'dist_author' => undef,
+         'has_config_data' => undef,
+         'use_tap_harness' => 0,
+         'installdirs' => 'site',
+         'PL_files' => undef,
+         'verbose' => undef,
+         'meta_merge' => {},
+         'share_dir' => undef,
+         'include_dirs' => [],
+         'dist_suffix' => undef,
+         'create_readme' => undef,
+         'build_bat' => 0,
+         'base_dir' => '/home/ubuntu/.cpanm/work/1444155265.4263/SUPER-1.20141117',
+         'destdir' => undef,
+         'requires' => {
+                         'Scalar::Util' => '1.20',
+                         'perl' => '5.6.2',
+                         'Sub::Identify' => '0.03'
+                       },
+         'prefix_relpaths' => {},
+         'recurse_into' => [],
+         'build_requires' => {
+                               'Test::Simple' => '0.61'
+                             },
+         'release_status' => 'stable',
+         'configure_requires' => {},
+         'needs_compiler' => '',
+         'build_class' => 'Module::Build',
+         'bindoc_dirs' => [
+                            'blib/script'
+                          ],
+         'dynamic_config' => 1,
+         'install_sets' => {},
+         'xs_files' => undef,
+         'scripts' => undef,
+         'extra_compiler_flags' => [],
+         'mb_version' => '0.4003',
+         'debug' => undef,
+         'pod_files' => undef,
+         'bundle_inc' => [],
+         'prereq_action_types' => [
+                                    'requires',
+                                    'build_requires',
+                                    'conflicts',
+                                    'recommends'
+                                  ],
+         'pollute' => undef,
+         'extra_linker_flags' => [],
+         'sign' => undef,
+         'config_dir' => '_build',
+         'script_files' => undef,
+         'create_makefile_pl' => undef,
+         'config' => undef,
+         '_added_to_INC' => [],
+         'html_css' => '',
+         'metafile2' => 'META.json',
+         'dist_name' => 'SUPER',
+         'module_name' => 'SUPER',
+         'install_base_relpaths' => {},
+         'recommends' => {},
+         'meta_add' => {},
+         'bundle_inc_preload' => [],
+         'blib' => 'blib',
+         'install_base' => undef,
+         'original_prefix' => {},
+         'dist_version_from' => 'lib/SUPER.pm',
+         'install_path' => {}
+       }
+     ];
+$x; }

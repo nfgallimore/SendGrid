@@ -1,0 +1,36 @@
+---
+abstract: 'Low-level HTTP connection (client)'
+author:
+  - 'Gisle Aas <gisle@activestate.com>'
+build_requires:
+  ExtUtils::MakeMaker: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 7.052, CPAN::Meta::Converter version 2.150004'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Net-HTTP
+no_index:
+  directory:
+    - t
+    - inc
+recommends:
+  IO::Socket::SSL: '1.38'
+requires:
+  Compress::Raw::Zlib: '0'
+  IO::Select: '0'
+  IO::Socket::INET: '0'
+  IO::Uncompress::Gunzip: '0'
+  URI: '0'
+  perl: '5.006002'
+resources:
+  IRC: irc://irc.perl.org/#lwp
+  MailingList: mailto:libwww@perl.org
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Net-HTTP
+  repository: https://github.com/libwww-perl/net-http.git
+version: '6.09'
+x_serialization_backend: 'CPAN::Meta::YAML version 0.016'
+

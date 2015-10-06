@@ -1,0 +1,118 @@
+cpanm (App::cpanminus) 1.7001 on perl 5.018002 built for x86_64-linux-gnu-thread-multi
+Work directory is /home/ubuntu/.cpanm/work/1444156125.5056
+You have /usr/bin/wget
+You have /bin/tar: tar (GNU tar) 1.27.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by John Gilmore and Jay Fenlason.
+Searching MIME::Entity on cpanmetadb ...
+--> Working on MIME::Entity
+Fetching http://www.cpan.org/authors/id/D/DS/DSKOLL/MIME-tools-5.507.tar.gz
+-> OK
+Unpacking MIME-tools-5.507.tar.gz
+Entering MIME-tools-5.507
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 6.59 ... Yes (6.66)
+Configuring MIME-tools-5.507
+Running Makefile.PL
+Warning: prerequisite Mail::Field 1.05 not found.
+Warning: prerequisite Mail::Header 1.01 not found.
+Warning: prerequisite Mail::Internet 1.0203 not found.
+Warning: prerequisite Test::Deep 0 not found.
+Checking if your kit is complete...
+Looks good
+Writing Makefile for MIME::Tools
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test::More 0 ... Yes (0.98)
+Checking if you have Mail::Header 1.01 ... No
+Checking if you have Mail::Internet 1.0203 ... No
+Checking if you have IO::File 1.13 ... Yes (1.16)
+Checking if you have ExtUtils::MakeMaker 6.59 ... Yes (6.66)
+Checking if you have File::Temp 0.18 ... Yes (0.23)
+Checking if you have IO::Handle 0 ... Yes (1.34)
+Checking if you have Test::Deep 0 ... No
+Checking if you have File::Spec 0.6 ... Yes (3.40)
+Checking if you have MIME::Base64 2.2 ... Yes (3.13)
+Checking if you have Mail::Field 1.05 ... No
+Checking if you have File::Path 1 ... Yes (2.09)
+==> Found dependencies: Mail::Header, Mail::Internet, Test::Deep, Mail::Field
+Searching Mail::Header on cpanmetadb ...
+--> Working on Mail::Header
+Fetching http://www.cpan.org/authors/id/M/MA/MARKOV/MailTools-2.14.tar.gz
+-> OK
+Unpacking MailTools-2.14.tar.gz
+Entering MailTools-2.14
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring MailTools-2.14
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Mail
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Net::SMTP 1.03 ... Yes (2.31)
+Checking if you have IO::Handle 0 ... Yes (1.34)
+Checking if you have Date::Parse 0 ... Yes (2.30)
+Checking if you have Date::Format 0 ... Yes (2.24)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have Test::More 0 ... Yes (0.98)
+Checking if you have Net::Domain 1.05 ... Yes (2.20)
+-> FAIL Can't configure the distribution. You probably need to have 'make'. See /home/ubuntu/.cpanm/work/1444156125.5056/build.log for details.
+Searching Mail::Internet on cpanmetadb ...
+Already tried MailTools-2.14. Skipping.
+Searching Test::Deep on cpanmetadb ...
+--> Working on Test::Deep
+Fetching http://www.cpan.org/authors/id/R/RJ/RJBS/Test-Deep-0.119.tar.gz
+-> OK
+Unpacking Test-Deep-0.119.tar.gz
+Entering Test-Deep-0.119
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring Test-Deep-0.119
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Test::Deep
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have List::Util 1.09 ... Yes (1.27)
+Checking if you have Test::Tester 0.04 ... No
+Checking if you have Test::More 0.88 ... Yes (0.98)
+Checking if you have Scalar::Util 1.09 ... Yes (1.27)
+Checking if you have Test::Builder 0 ... Yes (0.98)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+==> Found dependencies: Test::Tester
+Searching Test::Tester on cpanmetadb ...
+--> Working on Test::Tester
+Fetching http://www.cpan.org/authors/id/E/EX/EXODIST/Test-Simple-1.001014.tar.gz
+-> OK
+Unpacking Test-Simple-1.001014.tar.gz
+Entering Test-Simple-1.001014
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring Test-Simple-1.001014
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Test::Simple
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test::Harness 2.03 ... Yes (3.26)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have Scalar::Util 1.13 ... Yes (1.27)
+-> FAIL Can't configure the distribution. You probably need to have 'make'. See /home/ubuntu/.cpanm/work/1444156125.5056/build.log for details.
+-> FAIL Installing the dependencies failed: Module 'Test::Tester' is not installed
+-> FAIL Bailing out the installation for Test-Deep-0.119.
+Searching Mail::Field on cpanmetadb ...
+Already tried MailTools-2.14. Skipping.
+-> FAIL Installing the dependencies failed: Module 'Test::Deep' is not installed, Module 'Mail::Field' is not installed, Module 'Mail::Internet' is not installed, Module 'Mail::Header' is not installed
+-> FAIL Bailing out the installation for MIME-tools-5.507.

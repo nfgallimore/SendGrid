@@ -1,0 +1,131 @@
+do{ my $x = [
+       {
+         'ARGV' => []
+       },
+       {},
+       {
+         'recursive_test_files' => undef,
+         'cpan_client' => 'cpan',
+         'destdir' => undef,
+         'bundle_inc_preload' => [],
+         'debugger' => undef,
+         'verbose' => undef,
+         'debug' => undef,
+         'installdirs' => 'site',
+         'test_file_exts' => [
+                               '.t'
+                             ],
+         'requires' => {
+                         'Scalar::Util' => 0,
+                         'Carp' => 0,
+                         'SUPER' => 0
+                       },
+         'pod_files' => undef,
+         'build_bat' => 0,
+         'html_css' => '',
+         'sign' => undef,
+         'mb_version' => '0.4003',
+         'mymetafile' => 'MYMETA.yml',
+         'c_source' => undef,
+         'autosplit' => undef,
+         'build_script' => 'Build',
+         'test_files' => undef,
+         'allow_mb_mismatch' => 0,
+         'create_packlist' => 1,
+         'prefix_relpaths' => {},
+         'prefix' => undef,
+         'install_base_relpaths' => {},
+         'program_name' => undef,
+         'meta_merge' => {
+                           'resources' => {
+                                            'bugtracker' => 'https://github.com/geofffranks/test-mockmodule/issues',
+                                            'homepage' => 'https://github.com/geofffranks/test-mockmodule',
+                                            'repository' => 'git://github.com/geofffranks/test-mockmodule.git'
+                                          }
+                         },
+         'recommends' => {},
+         'release_status' => 'stable',
+         'get_options' => {},
+         'meta_add' => {},
+         'share_dir' => undef,
+         'install_base' => undef,
+         'mymetafile2' => 'MYMETA.json',
+         'use_rcfile' => 1,
+         'libdoc_dirs' => [
+                            'blib/lib',
+                            'blib/arch'
+                          ],
+         'extra_linker_flags' => [],
+         'metafile' => 'META.yml',
+         '_added_to_INC' => [],
+         'pollute' => undef,
+         'install_sets' => {},
+         'prereq_action_types' => [
+                                    'requires',
+                                    'build_requires',
+                                    'conflicts',
+                                    'recommends'
+                                  ],
+         'magic_number' => undef,
+         'blib' => 'blib',
+         'build_requires' => {
+                               'Test::More' => '0.45'
+                             },
+         'dist_suffix' => undef,
+         'config_dir' => '_build',
+         'create_readme' => undef,
+         'dist_version' => '0.10',
+         'needs_compiler' => '',
+         'quiet' => undef,
+         'include_dirs' => [],
+         'extra_compiler_flags' => [],
+         'tap_harness_args' => {},
+         'scripts' => undef,
+         'configure_requires' => {
+                                   'Module::Build' => '0.38'
+                                 },
+         'original_prefix' => {},
+         'build_elements' => [
+                               'PL',
+                               'support',
+                               'pm',
+                               'xs',
+                               'share_dir',
+                               'pod',
+                               'script'
+                             ],
+         'PL_files' => undef,
+         'create_makefile_pl' => undef,
+         'create_license' => 1,
+         'dist_version_from' => 'lib/Test/MockModule.pm',
+         'pm_files' => undef,
+         'dynamic_config' => 1,
+         'license' => 'GPL_3',
+         'script_files' => undef,
+         'module_name' => 'Test::MockModule',
+         'config' => undef,
+         'recurse_into' => [],
+         'build_class' => 'Module::Build',
+         'conflicts' => {},
+         'perl' => '/usr/bin/perl',
+         'auto_configure_requires' => 1,
+         'dist_author' => [
+                            'Current Maintainer: Geoff Franks <gfranks@cpan.org>',
+                            'Original Author: Simon Flack <simonflk _AT_ cpan.org>'
+                          ],
+         'dist_abstract' => undef,
+         'install_path' => {},
+         'bundle_inc' => [],
+         'bindoc_dirs' => [
+                            'blib/script'
+                          ],
+         'orig_dir' => '/home/ubuntu/.cpanm/work/1444155265.4263/Test-MockModule-0.10',
+         'dist_name' => 'Test-MockModule',
+         'xs_files' => undef,
+         'base_dir' => '/home/ubuntu/.cpanm/work/1444155265.4263/Test-MockModule-0.10',
+         'metafile2' => 'META.json',
+         'use_tap_harness' => 0,
+         'has_config_data' => undef
+       }
+     ];
+$x; }

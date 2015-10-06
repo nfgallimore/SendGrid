@@ -1,0 +1,23 @@
+---
+abstract: 'control superclass method dispatch'
+author:
+  - chromatic
+build_requires:
+  Test::Simple: 0.61
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 0
+generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.133380'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: SUPER
+requires:
+  Scalar::Util: 1.20
+  Sub::Identify: 0.03
+  perl: v5.6.2
+resources:
+  bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=SUPER
+  repository: https://github.com/chromatic/SUPER.git
+version: 1.20141117

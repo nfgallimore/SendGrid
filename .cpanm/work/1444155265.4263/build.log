@@ -1,0 +1,1255 @@
+cpanm (App::cpanminus) 1.7001 on perl 5.018002 built for x86_64-linux-gnu-thread-multi
+Work directory is /home/ubuntu/.cpanm/work/1444155265.4263
+You have /usr/bin/wget
+You have /bin/tar: tar (GNU tar) 1.27.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by John Gilmore and Jay Fenlason.
+--> Working on SendGrid-1.3.tar.gz
+Fetching file:///home/ubuntu/sendgrid-perl/SendGrid-1.3.tar.gz
+-> OK
+Unpacking SendGrid-1.3.tar.gz
+Entering SendGrid-1.3
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 6.36 ... Yes (6.66)
+Configuring SendGrid-1.3
+Running Makefile.PL
+Cannot determine perl version info from lib/Email/SendGrid.pm
+Warning: prerequisite JSON 0 not found.
+Warning: prerequisite LWP::Protocol::https 0 not found.
+Warning: prerequisite LWP::UserAgent 0 not found.
+Warning: prerequisite MIME::Entity 0 not found.
+Warning: prerequisite Mail::Address 0 not found.
+Warning: prerequisite Net::SMTP::TLS 0 not found.
+Warning: prerequisite Test::Class::Load 0 not found.
+Warning: prerequisite Test::MockModule 0 not found.
+Warning: prerequisite Test::MockObject 0 not found.
+Warning: prerequisite URI::Escape 0 not found.
+Checking if your kit is complete...
+Looks good
+Writing Makefile for SendGrid
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test::MockModule 0 ... No
+Checking if you have URI::Escape 0 ... No
+Checking if you have LWP::UserAgent 0 ... No
+Checking if you have Carp 0 ... Yes (1.29)
+Checking if you have Test::MockObject 0 ... No
+Checking if you have JSON 0 ... No
+Checking if you have Sys::Hostname 0 ... Yes (1.17)
+Checking if you have MIME::Entity 0 ... No
+Checking if you have Net::SMTP::TLS 0 ... No
+Checking if you have Encode 0 ... Yes (2.49)
+Checking if you have Test::Class::Load 0 ... No
+Checking if you have Test::More 0 ... Yes (0.98)
+Checking if you have ExtUtils::MakeMaker 6.36 ... Yes (6.66)
+Checking if you have Mail::Address 0 ... No
+Checking if you have LWP::Protocol::https 0 ... No
+==> Found dependencies: Test::MockModule, URI::Escape, LWP::UserAgent, Test::MockObject, JSON, MIME::Entity, Net::SMTP::TLS, Test::Class::Load, Mail::Address, LWP::Protocol::https
+Searching Test::MockModule on cpanmetadb ...
+--> Working on Test::MockModule
+Fetching http://www.cpan.org/authors/id/G/GF/GFRANKS/Test-MockModule-0.10.tar.gz
+-> OK
+Unpacking Test-MockModule-0.10.tar.gz
+Entering Test-MockModule-0.10
+Checking configure dependencies from META.json
+Checking if you have Module::Build 0.38 ... Yes (0.4003)
+Checking if you have Module::Build 0.36 ... Yes (0.4003)
+Configuring Test-MockModule-0.10
+Running Build.PL
+Checking prerequisites...
+  requires:
+    !  SUPER is not installed
+
+ERRORS/WARNINGS FOUND IN PREREQUISITES.  You may wish to install the versions
+of the modules indicated above before proceeding with this installation
+
+Created MYMETA.yml and MYMETA.json
+Creating new 'Build' script for 'Test-MockModule' version '0.10'
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test::More 0.45 ... Yes (0.98)
+Checking if you have Carp 0 ... Yes (1.29)
+Checking if you have Scalar::Util 0 ... Yes (1.27)
+Checking if you have SUPER 0 ... No
+==> Found dependencies: SUPER
+Searching SUPER on cpanmetadb ...
+--> Working on SUPER
+Fetching http://www.cpan.org/authors/id/C/CH/CHROMATIC/SUPER-1.20141117.tar.gz
+-> OK
+Unpacking SUPER-1.20141117.tar.gz
+Entering SUPER-1.20141117
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have Module::Build 0.36 ... Yes (0.4003)
+Configuring SUPER-1.20141117
+Running Build.PL
+Checking prerequisites...
+  requires:
+    !  Sub::Identify is not installed
+
+ERRORS/WARNINGS FOUND IN PREREQUISITES.  You may wish to install the versions
+of the modules indicated above before proceeding with this installation
+
+Created MYMETA.yml and MYMETA.json
+Creating new 'Build' script for 'SUPER' version '1.20141117'
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test::Simple 0.61 ... Yes (0.98)
+Checking if you have Scalar::Util 1.20 ... Yes (1.27)
+Checking if you have Sub::Identify 0.03 ... No
+==> Found dependencies: Sub::Identify
+Searching Sub::Identify on cpanmetadb ...
+--> Working on Sub::Identify
+Fetching http://www.cpan.org/authors/id/R/RG/RGARCIA/Sub-Identify-0.12.tar.gz
+-> OK
+Unpacking Sub-Identify-0.12.tar.gz
+Entering Sub-Identify-0.12
+Checking configure dependencies from META.yml
+Configuring Sub-Identify-0.12
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Sub::Identify
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have Test::More 0 ... Yes (0.98)
+-> FAIL Can't configure the distribution. You probably need to have 'make'. See /home/ubuntu/.cpanm/work/1444155265.4263/build.log for details.
+-> FAIL Installing the dependencies failed: Module 'Sub::Identify' is not installed
+-> FAIL Bailing out the installation for SUPER-1.20141117.
+-> FAIL Installing the dependencies failed: Module 'SUPER' is not installed
+-> FAIL Bailing out the installation for Test-MockModule-0.10.
+Searching URI::Escape on cpanmetadb ...
+--> Working on URI::Escape
+Fetching http://www.cpan.org/authors/id/E/ET/ETHER/URI-1.69.tar.gz
+-> OK
+Unpacking URI-1.69.tar.gz
+Entering URI-1.69
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring URI-1.69
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for URI
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have MIME::Base64 2 ... Yes (3.13)
+Checking if you have parent 0 ... Yes (0.225)
+Checking if you have File::Temp 0 ... Yes (0.23)
+Checking if you have utf8 0 ... Yes (1.10)
+Checking if you have Exporter 5.57 ... Yes (5.68)
+Checking if you have Scalar::Util 0 ... Yes (1.27)
+Checking if you have Test::More 0.96 ... Yes (0.98)
+-> FAIL Can't configure the distribution. You probably need to have 'make'. See /home/ubuntu/.cpanm/work/1444155265.4263/build.log for details.
+Searching LWP::UserAgent on cpanmetadb ...
+--> Working on LWP::UserAgent
+Fetching http://www.cpan.org/authors/id/E/ET/ETHER/libwww-perl-6.13.tar.gz
+-> OK
+Unpacking libwww-perl-6.13.tar.gz
+Entering libwww-perl-6.13
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring libwww-perl-6.13
+Running Makefile.PL
+Warning: prerequisite Encode::Locale 0 not found.
+Warning: prerequisite File::Listing 6 not found.
+Warning: prerequisite HTML::Entities 0 not found.
+Warning: prerequisite HTML::HeadParser 0 not found.
+Warning: prerequisite HTTP::Cookies 6 not found.
+Warning: prerequisite HTTP::Daemon 6 not found.
+Warning: prerequisite HTTP::Date 6 not found.
+Warning: prerequisite HTTP::Negotiate 6 not found.
+Warning: prerequisite HTTP::Request 6 not found.
+Warning: prerequisite HTTP::Request::Common 6 not found.
+Warning: prerequisite HTTP::Response 6 not found.
+Warning: prerequisite HTTP::Status 6 not found.
+Warning: prerequisite LWP::MediaTypes 6 not found.
+Warning: prerequisite Net::HTTP 6.07 not found.
+Warning: prerequisite URI 1.10 not found.
+Warning: prerequisite URI::Escape 0 not found.
+Warning: prerequisite WWW::RobotRules 6 not found.
+Checking if your kit is complete...
+Looks good
+Writing Makefile for LWP
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have IO::Socket 0 ... Yes (1.36)
+Checking if you have Digest::MD5 0 ... Yes (2.52)
+Checking if you have MIME::Base64 2.1 ... Yes (3.13)
+Checking if you have Encode::Locale 0 ... No
+Checking if you have HTML::Entities 0 ... No
+Checking if you have HTML::HeadParser 0 ... No
+Checking if you have File::Listing 6 ... No
+Checking if you have HTTP::Status 6 ... No
+Checking if you have HTTP::Response 6 ... No
+Checking if you have HTTP::Negotiate 6 ... No
+Checking if you have URI 1.10 ... No
+Checking if you have HTTP::Date 6 ... No
+Checking if you have HTTP::Request::Common 6 ... No
+Checking if you have HTTP::Cookies 6 ... No
+Checking if you have Net::FTP 2.58 ... Yes (2.77)
+Checking if you have HTTP::Daemon 6 ... No
+Checking if you have FindBin 0 ... Yes (1.51)
+Checking if you have LWP::MediaTypes 6 ... No
+Checking if you have URI::Escape 0 ... No
+Checking if you have Net::HTTP 6.07 ... No
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have Test::More 0 ... Yes (0.98)
+Checking if you have Test 0 ... Yes (1.26)
+Checking if you have WWW::RobotRules 6 ... No
+Checking if you have IO::Select 0 ... Yes (1.21)
+Checking if you have Encode 2.12 ... Yes (2.49)
+Checking if you have HTTP::Request 6 ... No
+==> Found dependencies: Encode::Locale, HTML::Entities, HTML::HeadParser, File::Listing, HTTP::Status, HTTP::Response, HTTP::Negotiate, URI, HTTP::Date, HTTP::Request::Common, HTTP::Cookies, HTTP::Daemon, LWP::MediaTypes, URI::Escape, Net::HTTP, WWW::RobotRules, HTTP::Request
+Searching Encode::Locale on cpanmetadb ...
+--> Working on Encode::Locale
+Fetching http://www.cpan.org/authors/id/G/GA/GAAS/Encode-Locale-1.05.tar.gz
+-> OK
+Unpacking Encode-Locale-1.05.tar.gz
+Entering Encode-Locale-1.05
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring Encode-Locale-1.05
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Encode::Locale
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Encode 2 ... Yes (2.49)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have Test::More 0 ... Yes (0.98)
+Checking if you have Encode::Alias 0 ... Yes (2.16)
+-> FAIL Can't configure the distribution. You probably need to have 'make'. See /home/ubuntu/.cpanm/work/1444155265.4263/build.log for details.
+Searching HTML::Entities on cpanmetadb ...
+--> Working on HTML::Entities
+Fetching http://www.cpan.org/authors/id/G/GA/GAAS/HTML-Parser-3.71.tar.gz
+-> OK
+Unpacking HTML-Parser-3.71.tar.gz
+Entering HTML-Parser-3.71
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring HTML-Parser-3.71
+Running Makefile.PL
+Warning: prerequisite HTML::Tagset 3 not found.
+Checking if your kit is complete...
+Looks good
+Writing Makefile for HTML::Parser
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have XSLoader 0 ... Yes (0.16)
+Checking if you have HTML::Tagset 3 ... No
+==> Found dependencies: HTML::Tagset
+Searching HTML::Tagset on cpanmetadb ...
+--> Working on HTML::Tagset
+Fetching http://www.cpan.org/authors/id/P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz
+-> OK
+Unpacking HTML-Tagset-3.20.tar.gz
+Entering HTML-Tagset-3.20
+Checking configure dependencies from META.yml
+Configuring HTML-Tagset-3.20
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for HTML::Tagset
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+-> FAIL Can't configure the distribution. You probably need to have 'make'. See /home/ubuntu/.cpanm/work/1444155265.4263/build.log for details.
+-> FAIL Installing the dependencies failed: Module 'HTML::Tagset' is not installed
+-> FAIL Bailing out the installation for HTML-Parser-3.71.
+Searching HTML::HeadParser on cpanmetadb ...
+Already tried HTML-Parser-3.71. Skipping.
+Searching File::Listing on cpanmetadb ...
+--> Working on File::Listing
+Fetching http://www.cpan.org/authors/id/G/GA/GAAS/File-Listing-6.04.tar.gz
+-> OK
+Unpacking File-Listing-6.04.tar.gz
+Entering File-Listing-6.04
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring File-Listing-6.04
+Running Makefile.PL
+Warning: prerequisite HTTP::Date 6 not found.
+Checking if your kit is complete...
+Looks good
+Writing Makefile for File::Listing
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have HTTP::Date 6 ... No
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+==> Found dependencies: HTTP::Date
+Searching HTTP::Date on cpanmetadb ...
+--> Working on HTTP::Date
+Fetching http://www.cpan.org/authors/id/G/GA/GAAS/HTTP-Date-6.02.tar.gz
+-> OK
+Unpacking HTTP-Date-6.02.tar.gz
+Entering HTTP-Date-6.02
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring HTTP-Date-6.02
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for HTTP::Date
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Time::Local 0 ... Yes (1.2300)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+-> FAIL Can't configure the distribution. You probably need to have 'make'. See /home/ubuntu/.cpanm/work/1444155265.4263/build.log for details.
+-> FAIL Installing the dependencies failed: Module 'HTTP::Date' is not installed
+-> FAIL Bailing out the installation for File-Listing-6.04.
+Searching HTTP::Status on cpanmetadb ...
+--> Working on HTTP::Status
+Fetching http://www.cpan.org/authors/id/E/ET/ETHER/HTTP-Message-6.11.tar.gz
+-> OK
+Unpacking HTTP-Message-6.11.tar.gz
+Entering HTTP-Message-6.11
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring HTTP-Message-6.11
+Running Makefile.PL
+Warning: prerequisite Encode::Locale 1 not found.
+Warning: prerequisite HTTP::Date 6 not found.
+Warning: prerequisite IO::HTML 0 not found.
+Warning: prerequisite LWP::MediaTypes 6 not found.
+Warning: prerequisite URI 1.10 not found.
+Checking if your kit is complete...
+Looks good
+Writing Makefile for HTTP::Message
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have IO::Uncompress::RawInflate 0 ... Yes (2.060)
+Checking if you have Encode 2.21 ... Yes (2.49)
+Checking if you have Test::More 0 ... Yes (0.98)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have MIME::QuotedPrint 0 ... Yes (3.13)
+Checking if you have Compress::Raw::Zlib 0 ... Yes (2.060)
+Checking if you have LWP::MediaTypes 6 ... No
+Checking if you have IO::Uncompress::Bunzip2 2.021 ... Yes (2.060)
+Checking if you have Exporter 5.57 ... Yes (5.68)
+Checking if you have HTTP::Date 6 ... No
+Checking if you have URI 1.10 ... No
+Checking if you have IO::Uncompress::Gunzip 0 ... Yes (2.060)
+Checking if you have IO::HTML 0 ... No
+Checking if you have IO::Compress::Gzip 0 ... Yes (2.060)
+Checking if you have Encode::Locale 1 ... No
+Checking if you have MIME::Base64 2.1 ... Yes (3.13)
+Checking if you have IO::Compress::Bzip2 2.021 ... Yes (2.060)
+Checking if you have IO::Uncompress::Inflate 0 ... Yes (2.060)
+Checking if you have IO::Compress::Deflate 0 ... Yes (2.060)
+==> Found dependencies: LWP::MediaTypes, HTTP::Date, URI, IO::HTML, Encode::Locale
+Searching LWP::MediaTypes on cpanmetadb ...
+--> Working on LWP::MediaTypes
+Fetching http://www.cpan.org/authors/id/G/GA/GAAS/LWP-MediaTypes-6.02.tar.gz
+-> OK
+Unpacking LWP-MediaTypes-6.02.tar.gz
+Entering LWP-MediaTypes-6.02
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring LWP-MediaTypes-6.02
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for LWP::MediaTypes
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+-> FAIL Can't configure the distribution. You probably need to have 'make'. See /home/ubuntu/.cpanm/work/1444155265.4263/build.log for details.
+Already tried HTTP::Date. Skipping.
+Searching URI on cpanmetadb ...
+Already tried URI-1.69. Skipping.
+Searching IO::HTML on cpanmetadb ...
+--> Working on IO::HTML
+Fetching http://www.cpan.org/authors/id/C/CJ/CJM/IO-HTML-1.001.tar.gz
+-> OK
+Unpacking IO-HTML-1.001.tar.gz
+Entering IO-HTML-1.001
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.30 ... Yes (6.66)
+Configuring IO-HTML-1.001
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for IO::HTML
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Carp 0 ... Yes (1.29)
+Checking if you have Scalar::Util 0 ... Yes (1.27)
+Checking if you have Test::More 0.88 ... Yes (0.98)
+Checking if you have File::Temp 0 ... Yes (0.23)
+Checking if you have Exporter 5.57 ... Yes (5.68)
+Checking if you have Encode 2.10 ... Yes (2.49)
+-> FAIL Can't configure the distribution. You probably need to have 'make'. See /home/ubuntu/.cpanm/work/1444155265.4263/build.log for details.
+Already tried Encode::Locale. Skipping.
+-> FAIL Installing the dependencies failed: Module 'Encode::Locale' is not installed, Module 'HTTP::Date' is not installed, Module 'URI' is not installed, Module 'IO::HTML' is not installed, Module 'LWP::MediaTypes' is not installed
+-> FAIL Bailing out the installation for HTTP-Message-6.11.
+Searching HTTP::Response on cpanmetadb ...
+Already tried HTTP-Message-6.11. Skipping.
+Searching HTTP::Negotiate on cpanmetadb ...
+--> Working on HTTP::Negotiate
+Fetching http://www.cpan.org/authors/id/G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz
+-> OK
+Unpacking HTTP-Negotiate-6.01.tar.gz
+Entering HTTP-Negotiate-6.01
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring HTTP-Negotiate-6.01
+Running Makefile.PL
+Warning: prerequisite HTTP::Headers 6 not found.
+Checking if your kit is complete...
+Looks good
+Writing Makefile for HTTP::Negotiate
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have HTTP::Headers 6 ... No
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+==> Found dependencies: HTTP::Headers
+Searching HTTP::Headers on cpanmetadb ...
+Already tried HTTP-Message-6.11. Skipping.
+-> FAIL Installing the dependencies failed: Module 'HTTP::Headers' is not installed
+-> FAIL Bailing out the installation for HTTP-Negotiate-6.01.
+Already tried URI. Skipping.
+Already tried HTTP::Date. Skipping.
+Searching HTTP::Request::Common on cpanmetadb ...
+Already tried HTTP-Message-6.11. Skipping.
+Searching HTTP::Cookies on cpanmetadb ...
+--> Working on HTTP::Cookies
+Fetching http://www.cpan.org/authors/id/G/GA/GAAS/HTTP-Cookies-6.01.tar.gz
+-> OK
+Unpacking HTTP-Cookies-6.01.tar.gz
+Entering HTTP-Cookies-6.01
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring HTTP-Cookies-6.01
+Running Makefile.PL
+Warning: prerequisite HTTP::Date 6 not found.
+Warning: prerequisite HTTP::Headers::Util 6 not found.
+Checking if your kit is complete...
+Looks good
+Writing Makefile for HTTP::Cookies
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have Time::Local 0 ... Yes (1.2300)
+Checking if you have HTTP::Headers::Util 6 ... No
+Checking if you have HTTP::Date 6 ... No
+==> Found dependencies: HTTP::Headers::Util, HTTP::Date
+Searching HTTP::Headers::Util on cpanmetadb ...
+Already tried HTTP-Message-6.11. Skipping.
+Already tried HTTP::Date. Skipping.
+-> FAIL Installing the dependencies failed: Module 'HTTP::Headers::Util' is not installed, Module 'HTTP::Date' is not installed
+-> FAIL Bailing out the installation for HTTP-Cookies-6.01.
+Searching HTTP::Daemon on cpanmetadb ...
+--> Working on HTTP::Daemon
+Fetching http://www.cpan.org/authors/id/G/GA/GAAS/HTTP-Daemon-6.01.tar.gz
+-> OK
+Unpacking HTTP-Daemon-6.01.tar.gz
+Entering HTTP-Daemon-6.01
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring HTTP-Daemon-6.01
+Running Makefile.PL
+Warning: prerequisite HTTP::Date 6 not found.
+Warning: prerequisite HTTP::Request 6 not found.
+Warning: prerequisite HTTP::Response 6 not found.
+Warning: prerequisite HTTP::Status 6 not found.
+Warning: prerequisite LWP::MediaTypes 6 not found.
+Checking if your kit is complete...
+Looks good
+Writing Makefile for HTTP::Daemon
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have IO::Socket 0 ... Yes (1.36)
+Checking if you have LWP::MediaTypes 6 ... No
+Checking if you have HTTP::Response 6 ... No
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have HTTP::Status 6 ... No
+Checking if you have HTTP::Request 6 ... No
+Checking if you have HTTP::Date 6 ... No
+Checking if you have Sys::Hostname 0 ... Yes (1.17)
+==> Found dependencies: LWP::MediaTypes, HTTP::Response, HTTP::Status, HTTP::Request, HTTP::Date
+Already tried LWP::MediaTypes. Skipping.
+Already tried HTTP::Response. Skipping.
+Already tried HTTP::Status. Skipping.
+Searching HTTP::Request on cpanmetadb ...
+Already tried HTTP-Message-6.11. Skipping.
+Already tried HTTP::Date. Skipping.
+-> FAIL Installing the dependencies failed: Module 'HTTP::Request' is not installed, Module 'HTTP::Date' is not installed, Module 'HTTP::Response' is not installed, Module 'HTTP::Status' is not installed, Module 'LWP::MediaTypes' is not installed
+-> FAIL Bailing out the installation for HTTP-Daemon-6.01.
+Already tried LWP::MediaTypes. Skipping.
+Already tried URI::Escape. Skipping.
+Searching Net::HTTP on cpanmetadb ...
+--> Working on Net::HTTP
+Fetching http://www.cpan.org/authors/id/E/ET/ETHER/Net-HTTP-6.09.tar.gz
+-> OK
+Unpacking Net-HTTP-6.09.tar.gz
+Entering Net-HTTP-6.09
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring Net-HTTP-6.09
+Running Makefile.PL
+Warning: prerequisite URI 0 not found.
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Net::HTTP
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have IO::Select 0 ... Yes (1.21)
+Checking if you have URI 0 ... No
+Checking if you have Compress::Raw::Zlib 0 ... Yes (2.060)
+Checking if you have IO::Socket::INET 0 ... Yes (1.33)
+Checking if you have IO::Uncompress::Gunzip 0 ... Yes (2.060)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+==> Found dependencies: URI
+Already tried URI. Skipping.
+-> FAIL Installing the dependencies failed: Module 'URI' is not installed
+-> FAIL Bailing out the installation for Net-HTTP-6.09.
+Searching WWW::RobotRules on cpanmetadb ...
+--> Working on WWW::RobotRules
+Fetching http://www.cpan.org/authors/id/G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
+-> OK
+Unpacking WWW-RobotRules-6.02.tar.gz
+Entering WWW-RobotRules-6.02
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring WWW-RobotRules-6.02
+Running Makefile.PL
+Warning: prerequisite URI 1.10 not found.
+Checking if your kit is complete...
+Looks good
+Writing Makefile for WWW::RobotRules
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have AnyDBM_File 0 ... Yes (1.01)
+Checking if you have URI 1.10 ... No
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have Fcntl 0 ... Yes (1.11)
+==> Found dependencies: URI
+Already tried URI. Skipping.
+-> FAIL Installing the dependencies failed: Module 'URI' is not installed
+-> FAIL Bailing out the installation for WWW-RobotRules-6.02.
+Already tried HTTP::Request. Skipping.
+-> FAIL Installing the dependencies failed: Module 'HTML::HeadParser' is not installed, Module 'HTML::Entities' is not installed, Module 'Encode::Locale' is not installed, Module 'HTTP::Response' is not installed, Module 'HTTP::Status' is not installed, Module 'File::Listing' is not installed, Module 'HTTP::Cookies' is not installed, Module 'HTTP::Request::Common' is not installed, Module 'URI' is not installed, Module 'HTTP::Date' is not installed, Module 'HTTP::Negotiate' is not installed, Module 'HTTP::Daemon' is not installed, Module 'URI::Escape' is not installed, Module 'LWP::MediaTypes' is not installed, Module 'Net::HTTP' is not installed, Module 'HTTP::Request' is not installed, Module 'WWW::RobotRules' is not installed
+-> FAIL Bailing out the installation for libwww-perl-6.13.
+Searching Test::MockObject on cpanmetadb ...
+--> Working on Test::MockObject
+Fetching http://www.cpan.org/authors/id/C/CH/CHROMATIC/Test-MockObject-1.20150527.tar.gz
+-> OK
+Unpacking Test-MockObject-1.20150527.tar.gz
+Entering Test-MockObject-1.20150527
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring Test-MockObject-1.20150527
+Running Makefile.PL
+Warning: prerequisite UNIVERSAL::can 1.20110617 not found.
+Warning: prerequisite UNIVERSAL::isa 1.20110614 not found.
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Test::MockObject
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Carp 0 ... Yes (1.29)
+Checking if you have Test::Builder 0 ... Yes (0.98)
+Checking if you have strict 0 ... Yes (1.07)
+Checking if you have Test::Exception 0.31 ... No
+Checking if you have UNIVERSAL::isa 1.20110614 ... No
+Checking if you have warnings 0 ... Yes (1.18)
+Checking if you have Test::Warn 0.23 ... No
+Checking if you have Scalar::Util 0 ... Yes (1.27)
+Checking if you have constant 0 ... Yes (1.27)
+Checking if you have Devel::Peek 0 ... Yes (1.11)
+Checking if you have overload 0 ... Yes (1.22)
+Checking if you have fields 0 ... Yes (2.16)
+Checking if you have base 0 ... Yes (2.18)
+Checking if you have Test::More 0.98 ... Yes (0.98)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have vars 0 ... Yes (1.03)
+Checking if you have CGI 4.15 ... No (3.63 < 4.15)
+Checking if you have UNIVERSAL::can 1.20110617 ... No
+==> Found dependencies: Test::Exception, UNIVERSAL::isa, Test::Warn, CGI, UNIVERSAL::can
+Searching Test::Exception on cpanmetadb ...
+--> Working on Test::Exception
+Fetching http://www.cpan.org/authors/id/E/EX/EXODIST/Test-Exception-0.40.tar.gz
+-> OK
+Unpacking Test-Exception-0.40.tar.gz
+Entering Test-Exception-0.40
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring Test-Exception-0.40
+Running Makefile.PL
+Warning: prerequisite Sub::Uplevel 0.18 not found.
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Test::Exception
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test::More 0.7 ... Yes (0.98)
+Checking if you have overload 0 ... Yes (1.22)
+Checking if you have Exporter 0 ... Yes (5.68)
+Checking if you have Sub::Uplevel 0.18 ... No
+Checking if you have strict 0 ... Yes (1.07)
+Checking if you have Test::Builder 0.7 ... Yes (0.98)
+Checking if you have Test::Harness 2.03 ... Yes (3.26)
+Checking if you have Test::Builder::Tester 1.07 ... Yes (1.22)
+Checking if you have Carp 0 ... Yes (1.29)
+Checking if you have base 0 ... Yes (2.18)
+Checking if you have warnings 0 ... Yes (1.18)
+==> Found dependencies: Sub::Uplevel
+Searching Sub::Uplevel on cpanmetadb ...
+--> Working on Sub::Uplevel
+Fetching http://www.cpan.org/authors/id/D/DA/DAGOLDEN/Sub-Uplevel-0.25.tar.gz
+-> OK
+Unpacking Sub-Uplevel-0.25.tar.gz
+Entering Sub-Uplevel-0.25
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.17 ... Yes (6.66)
+Configuring Sub-Uplevel-0.25
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Sub::Uplevel
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have warnings 0 ... Yes (1.18)
+Checking if you have File::Spec 0 ... Yes (3.40)
+Checking if you have Carp 0 ... Yes (1.29)
+Checking if you have strict 0 ... Yes (1.07)
+Checking if you have Exporter 0 ... Yes (5.68)
+Checking if you have constant 0 ... Yes (1.27)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have Test::More 0 ... Yes (0.98)
+-> FAIL Can't configure the distribution. You probably need to have 'make'. See /home/ubuntu/.cpanm/work/1444155265.4263/build.log for details.
+-> FAIL Installing the dependencies failed: Module 'Sub::Uplevel' is not installed
+-> FAIL Bailing out the installation for Test-Exception-0.40.
+Searching UNIVERSAL::isa on cpanmetadb ...
+--> Working on UNIVERSAL::isa
+Fetching http://www.cpan.org/authors/id/E/ET/ETHER/UNIVERSAL-isa-1.20150614.tar.gz
+-> OK
+Unpacking UNIVERSAL-isa-1.20150614.tar.gz
+Entering UNIVERSAL-isa-1.20150614
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring UNIVERSAL-isa-1.20150614
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Wide character in print at /usr/share/perl/5.18/ExtUtils/MakeMaker.pm line 1034.
+Wide character in print at /usr/share/perl/5.18/ExtUtils/MakeMaker.pm line 1034.
+Wide character in print at /usr/share/perl/5.18/ExtUtils/MakeMaker.pm line 1034.
+Writing Makefile for UNIVERSAL::isa
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have warnings::register 0 ... Yes (1.02)
+Checking if you have overload 0 ... Yes (1.22)
+Checking if you have Test::More 0 ... Yes (0.98)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have Scalar::Util 0 ... Yes (1.27)
+Checking if you have warnings 0 ... Yes (1.18)
+Checking if you have strict 0 ... Yes (1.07)
+Checking if you have File::Spec 0 ... Yes (3.40)
+-> FAIL Can't configure the distribution. You probably need to have 'make'. See /home/ubuntu/.cpanm/work/1444155265.4263/build.log for details.
+Searching Test::Warn on cpanmetadb ...
+--> Working on Test::Warn
+Fetching http://www.cpan.org/authors/id/C/CH/CHORNY/Test-Warn-0.30.tar.gz
+-> OK
+Unpacking Test-Warn-0.30.tar.gz
+Entering Test-Warn-0.30
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring Test-Warn-0.30
+Running Makefile.PL
+Warning: prerequisite Sub::Uplevel 0.12 not found.
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Test::Warn
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test::Builder::Tester 1.02 ... Yes (1.22)
+Checking if you have File::Spec 0 ... Yes (3.40)
+Checking if you have Carp 1.22 ... Yes (1.29)
+Checking if you have Test::More 0 ... Yes (0.98)
+Checking if you have Test::Builder 0.13 ... Yes (0.98)
+Checking if you have Sub::Uplevel 0.12 ... No
+==> Found dependencies: Sub::Uplevel
+Already tried Sub::Uplevel. Skipping.
+-> FAIL Installing the dependencies failed: Module 'Sub::Uplevel' is not installed
+-> FAIL Bailing out the installation for Test-Warn-0.30.
+Searching CGI on cpanmetadb ...
+--> Working on CGI
+Fetching http://www.cpan.org/authors/id/L/LE/LEEJO/CGI-4.21.tar.gz
+-> OK
+Unpacking CGI-4.21.tar.gz
+Entering CGI-4.21
+Checking configure dependencies from META.json
+Configuring CGI-4.21
+Running Makefile.PL
+Warning: prerequisite HTML::Entities 3.69 not found.
+Checking if your kit is complete...
+Looks good
+Writing Makefile for CGI
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Exporter 0 ... Yes (5.68)
+Checking if you have IO::File 0 ... Yes (1.16)
+Checking if you have utf8 0 ... Yes (1.10)
+Checking if you have if 0 ... Yes (0.0602)
+Checking if you have overload 0 ... Yes (1.22)
+Checking if you have File::Find 0 ... Yes (1.23)
+Checking if you have Test::Warn 0.3 ... No
+Checking if you have HTML::Entities 3.69 ... No
+Checking if you have warnings 0 ... Yes (1.18)
+Checking if you have POSIX 0 ... Yes (1.32)
+Checking if you have strict 0 ... Yes (1.07)
+Checking if you have File::Spec 0.82 ... Yes (3.40)
+Checking if you have Carp 0 ... Yes (1.29)
+Checking if you have Encode 0 ... Yes (2.49)
+Checking if you have IO::Handle 0 ... Yes (1.34)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have Test::NoWarnings 1.04 ... No
+Checking if you have Test::More 0.98 ... Yes (0.98)
+Checking if you have Config 0 ... Yes (5.018002)
+Checking if you have parent 0.225 ... Yes (0.225)
+Checking if you have Cwd 0 ... Yes (3.40)
+Checking if you have File::Temp 0 ... Yes (0.23)
+Checking if you have Test::Deep 0.11 ... No
+Checking if you have base 0 ... Yes (2.18)
+==> Found dependencies: Test::Warn, HTML::Entities, Test::NoWarnings, Test::Deep
+Already tried Test::Warn. Skipping.
+Already tried HTML::Entities. Skipping.
+Searching Test::NoWarnings on cpanmetadb ...
+--> Working on Test::NoWarnings
+Fetching http://www.cpan.org/authors/id/A/AD/ADAMK/Test-NoWarnings-1.04.tar.gz
+-> OK
+Unpacking Test-NoWarnings-1.04.tar.gz
+Entering Test-NoWarnings-1.04
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring Test-NoWarnings-1.04
+Running Makefile.PL
+Warning: prerequisite Test::Tester 0.107 not found.
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Test::NoWarnings
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test::Tester 0.107 ... No
+Checking if you have Test::More 0.47 ... Yes (0.98)
+Checking if you have Test::Builder 0.86 ... Yes (0.98)
+==> Found dependencies: Test::Tester
+Searching Test::Tester on cpanmetadb ...
+--> Working on Test::Tester
+Fetching http://www.cpan.org/authors/id/E/EX/EXODIST/Test-Simple-1.001014.tar.gz
+-> OK
+Unpacking Test-Simple-1.001014.tar.gz
+Entering Test-Simple-1.001014
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring Test-Simple-1.001014
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Test::Simple
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test::Harness 2.03 ... Yes (3.26)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have Scalar::Util 1.13 ... Yes (1.27)
+-> FAIL Can't configure the distribution. You probably need to have 'make'. See /home/ubuntu/.cpanm/work/1444155265.4263/build.log for details.
+-> FAIL Installing the dependencies failed: Module 'Test::Tester' is not installed
+-> FAIL Bailing out the installation for Test-NoWarnings-1.04.
+Searching Test::Deep on cpanmetadb ...
+--> Working on Test::Deep
+Fetching http://www.cpan.org/authors/id/R/RJ/RJBS/Test-Deep-0.119.tar.gz
+-> OK
+Unpacking Test-Deep-0.119.tar.gz
+Entering Test-Deep-0.119
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring Test-Deep-0.119
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Test::Deep
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Scalar::Util 1.09 ... Yes (1.27)
+Checking if you have List::Util 1.09 ... Yes (1.27)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have Test::More 0.88 ... Yes (0.98)
+Checking if you have Test::Builder 0 ... Yes (0.98)
+Checking if you have Test::Tester 0.04 ... No
+==> Found dependencies: Test::Tester
+Already tried Test::Tester. Skipping.
+-> FAIL Installing the dependencies failed: Module 'Test::Tester' is not installed
+-> FAIL Bailing out the installation for Test-Deep-0.119.
+-> FAIL Installing the dependencies failed: Module 'HTML::Entities' is not installed, Module 'Test::Warn' is not installed, Module 'Test::Deep' is not installed, Module 'Test::NoWarnings' is not installed
+-> FAIL Bailing out the installation for CGI-4.21.
+Searching UNIVERSAL::can on cpanmetadb ...
+--> Working on UNIVERSAL::can
+Fetching http://www.cpan.org/authors/id/C/CH/CHROMATIC/UNIVERSAL-can-1.20140328.tar.gz
+-> OK
+Unpacking UNIVERSAL-can-1.20140328.tar.gz
+Entering UNIVERSAL-can-1.20140328
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 6.30 ... Yes (6.66)
+Configuring UNIVERSAL-can-1.20140328
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for UNIVERSAL::can
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have lib 0 ... Yes (0.63)
+Checking if you have warnings 0 ... Yes (1.18)
+Checking if you have strict 0 ... Yes (1.07)
+Checking if you have vars 0 ... Yes (1.03)
+Checking if you have warnings::register 0 ... Yes (1.02)
+Checking if you have Scalar::Util 0 ... Yes (1.27)
+Checking if you have overload 0 ... Yes (1.22)
+Checking if you have Test::More 0 ... Yes (0.98)
+-> FAIL Can't configure the distribution. You probably need to have 'make'. See /home/ubuntu/.cpanm/work/1444155265.4263/build.log for details.
+-> FAIL Installing the dependencies failed: Module 'Test::Exception' is not installed, Module 'UNIVERSAL::isa' is not installed, Module 'Test::Warn' is not installed, Installed version (3.63) of CGI is not in range '4.15', Module 'UNIVERSAL::can' is not installed
+-> FAIL Bailing out the installation for Test-MockObject-1.20150527.
+Searching JSON on cpanmetadb ...
+--> Working on JSON
+Fetching http://www.cpan.org/authors/id/M/MA/MAKAMAKA/JSON-2.90.tar.gz
+-> OK
+Unpacking JSON-2.90.tar.gz
+Entering JSON-2.90
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring JSON-2.90
+Running Makefile.PL
+Welcome to JSON (v.2.90)
+=============================
+
+
+ *************************** CAUTION **************************************
+ *                                                                        *
+ * INCOMPATIBLE CHANGE (JSON::XS version 2.90)                            *
+ *                                                                        *
+ * JSON.pm had patched JSON::XS::Boolean and JSON::PP::Boolean internally *
+ * on loading time for making these modules inherit JSON::Boolean.        *
+ * But since JSON::XS v3.0 it use Types::Serialiser as boolean class.     *
+ * Then now JSON.pm breaks boolean classe overload features and           *
+ * -support_by_pp if JSON::XS v3.0 or later is installed.                 *
+ *                                                                        *
+ * JSON::true and JSON::false returned JSON::Boolean objects.             *
+ * For workaround, they return JSON::PP::Boolean objects in this version. *
+ *                                                                        *
+ *     isa_ok(JSON::true, 'JSON::PP::Boolean');                           *
+ *                                                                        *
+ * And it discards a feature:                                             *
+ *                                                                        *
+ *     ok(JSON::true eq 'true');                                          *
+ *                                                                        *
+ * In other word, JSON::PP::Boolean overload numeric only.                *
+ *                                                                        *
+ *     ok( JSON::true == 1 );                                             *
+ *                                                                        *
+ **************************************************************************
+
+
+ ************************** CAUTION **************************
+ * This is 'JSON version 2' and there are many differences   *
+ * to version 1.xx                                           *
+ * Please check your applications useing old version.        *
+ *   See to 'INCOMPATIBLE CHANGES TO OLD VERSION' and 'TIPS' *
+ *************************************************************
+
+
+Checking if your kit is complete...
+Looks good
+Writing Makefile for JSON
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have Test::More 0 ... Yes (0.98)
+-> FAIL Can't configure the distribution. You probably need to have 'make'. See /home/ubuntu/.cpanm/work/1444155265.4263/build.log for details.
+Searching MIME::Entity on cpanmetadb ...
+--> Working on MIME::Entity
+Fetching http://www.cpan.org/authors/id/D/DS/DSKOLL/MIME-tools-5.507.tar.gz
+-> OK
+Unpacking MIME-tools-5.507.tar.gz
+Entering MIME-tools-5.507
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 6.59 ... Yes (6.66)
+Configuring MIME-tools-5.507
+Running Makefile.PL
+Warning: prerequisite Mail::Field 1.05 not found.
+Warning: prerequisite Mail::Header 1.01 not found.
+Warning: prerequisite Mail::Internet 1.0203 not found.
+Warning: prerequisite Test::Deep 0 not found.
+Checking if your kit is complete...
+Looks good
+Writing Makefile for MIME::Tools
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Mail::Header 1.01 ... No
+Checking if you have ExtUtils::MakeMaker 6.59 ... Yes (6.66)
+Checking if you have Test::More 0 ... Yes (0.98)
+Checking if you have IO::File 1.13 ... Yes (1.16)
+Checking if you have IO::Handle 0 ... Yes (1.34)
+Checking if you have File::Spec 0.6 ... Yes (3.40)
+Checking if you have File::Temp 0.18 ... Yes (0.23)
+Checking if you have Test::Deep 0 ... No
+Checking if you have File::Path 1 ... Yes (2.09)
+Checking if you have Mail::Field 1.05 ... No
+Checking if you have MIME::Base64 2.2 ... Yes (3.13)
+Checking if you have Mail::Internet 1.0203 ... No
+==> Found dependencies: Mail::Header, Test::Deep, Mail::Field, Mail::Internet
+Searching Mail::Header on cpanmetadb ...
+--> Working on Mail::Header
+Fetching http://www.cpan.org/authors/id/M/MA/MARKOV/MailTools-2.14.tar.gz
+-> OK
+Unpacking MailTools-2.14.tar.gz
+Entering MailTools-2.14
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring MailTools-2.14
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Mail
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have IO::Handle 0 ... Yes (1.34)
+Checking if you have Date::Format 0 ... Yes (2.24)
+Checking if you have Date::Parse 0 ... Yes (2.30)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have Test::More 0 ... Yes (0.98)
+Checking if you have Net::Domain 1.05 ... Yes (2.20)
+Checking if you have Net::SMTP 1.03 ... Yes (2.31)
+-> FAIL Can't configure the distribution. You probably need to have 'make'. See /home/ubuntu/.cpanm/work/1444155265.4263/build.log for details.
+Already tried Test::Deep. Skipping.
+Searching Mail::Field on cpanmetadb ...
+Already tried MailTools-2.14. Skipping.
+Searching Mail::Internet on cpanmetadb ...
+Already tried MailTools-2.14. Skipping.
+-> FAIL Installing the dependencies failed: Module 'Test::Deep' is not installed, Module 'Mail::Field' is not installed, Module 'Mail::Internet' is not installed, Module 'Mail::Header' is not installed
+-> FAIL Bailing out the installation for MIME-tools-5.507.
+Searching Net::SMTP::TLS on cpanmetadb ...
+--> Working on Net::SMTP::TLS
+Fetching http://www.cpan.org/authors/id/A/AW/AWESTHOLM/Net-SMTP-TLS-0.12.tar.gz
+-> OK
+Unpacking Net-SMTP-TLS-0.12.tar.gz
+Entering Net-SMTP-TLS-0.12
+Checking configure dependencies from META.yml
+Configuring Net-SMTP-TLS-0.12
+Running Makefile.PL
+Warning: prerequisite Digest::HMAC_MD5 0 not found.
+Warning: prerequisite IO::Socket::SSL 0 not found.
+Warning: prerequisite Net::SSLeay 0 not found.
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Net::SMTP::TLS
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have MIME::Base64 0 ... Yes (3.13)
+Checking if you have Digest::HMAC_MD5 0 ... No
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have Test::More 0 ... Yes (0.98)
+Checking if you have Net::SSLeay 0 ... No
+Checking if you have IO::Socket::SSL 0 ... No
+Checking if you have IO::Socket::INET 0 ... Yes (1.33)
+==> Found dependencies: Digest::HMAC_MD5, Net::SSLeay, IO::Socket::SSL
+Searching Digest::HMAC_MD5 on cpanmetadb ...
+--> Working on Digest::HMAC_MD5
+Fetching http://www.cpan.org/authors/id/G/GA/GAAS/Digest-HMAC-1.03.tar.gz
+-> OK
+Unpacking Digest-HMAC-1.03.tar.gz
+Entering Digest-HMAC-1.03
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring Digest-HMAC-1.03
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Digest::HMAC
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have Digest::SHA 1 ... Yes (5.84_01)
+Checking if you have Digest::MD5 2 ... Yes (2.52)
+-> FAIL Can't configure the distribution. You probably need to have 'make'. See /home/ubuntu/.cpanm/work/1444155265.4263/build.log for details.
+Searching Net::SSLeay on cpanmetadb ...
+--> Working on Net::SSLeay
+Fetching http://www.cpan.org/authors/id/M/MI/MIKEM/Net-SSLeay-1.72.tar.gz
+-> OK
+Unpacking Net-SSLeay-1.72.tar.gz
+Entering Net-SSLeay-1.72
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 6.36 ... Yes (6.66)
+Configuring Net-SSLeay-1.72
+Running Makefile.PL
+NA: Unable to build distribution on this platform.
+Unresolvable missing external dependency.
+This package requires a C compiler.
+-> N/A
+-> FAIL Configure failed for Net-SSLeay-1.72. See /home/ubuntu/.cpanm/work/1444155265.4263/build.log for details.
+Searching IO::Socket::SSL on cpanmetadb ...
+--> Working on IO::Socket::SSL
+Fetching http://www.cpan.org/authors/id/S/SU/SULLR/IO-Socket-SSL-2.020.tar.gz
+-> OK
+Unpacking IO-Socket-SSL-2.020.tar.gz
+Entering IO-Socket-SSL-2.020
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring IO-Socket-SSL-2.020
+Running Makefile.PL
+
+WARNING
+No library for handling international domain names found.
+It will work but croak if you try to verify an international name against
+a certificate.
+It's recommended to install either Net::IDN::Encode, Net::LibIDN or URI version>=1.50
+
+Checking if your kit is complete...
+Looks good
+Warning: prerequisite Mozilla::CA 0 not found.
+Warning: prerequisite Net::SSLeay 1.46 not found.
+Writing Makefile for IO::Socket::SSL
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Mozilla::CA 0 ... No
+Checking if you have Scalar::Util 0 ... Yes (1.27)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have Net::SSLeay 1.46 ... No
+==> Found dependencies: Mozilla::CA, Net::SSLeay
+Searching Mozilla::CA on cpanmetadb ...
+--> Working on Mozilla::CA
+Fetching http://www.cpan.org/authors/id/A/AB/ABH/Mozilla-CA-20150826.tar.gz
+-> OK
+Unpacking Mozilla-CA-20150826.tar.gz
+Entering Mozilla-CA-20150826
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring Mozilla-CA-20150826
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Mozilla::CA
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test 0 ... Yes (1.26)
+-> FAIL Can't configure the distribution. You probably need to have 'make'. See /home/ubuntu/.cpanm/work/1444155265.4263/build.log for details.
+Already tried Net::SSLeay. Skipping.
+-> FAIL Installing the dependencies failed: Module 'Net::SSLeay' is not installed, Module 'Mozilla::CA' is not installed
+-> FAIL Bailing out the installation for IO-Socket-SSL-2.020.
+-> FAIL Installing the dependencies failed: Module 'Digest::HMAC_MD5' is not installed, Module 'Net::SSLeay' is not installed, Module 'IO::Socket::SSL' is not installed
+-> FAIL Bailing out the installation for Net-SMTP-TLS-0.12.
+Searching Test::Class::Load on cpanmetadb ...
+--> Working on Test::Class::Load
+Fetching http://www.cpan.org/authors/id/E/ET/ETHER/Test-Class-0.50.tar.gz
+-> OK
+Unpacking Test-Class-0.50.tar.gz
+Entering Test-Class-0.50
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring Test-Class-0.50
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Warning: prerequisite MRO::Compat 0.11 not found.
+Warning: prerequisite Module::Runtime 0 not found.
+Warning: prerequisite Try::Tiny 0 not found.
+Writing Makefile for Test::Class
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Try::Tiny 0 ... No
+Checking if you have Test::Simple 0.78 ... Yes (0.98)
+Checking if you have Test 0 ... Yes (1.26)
+Checking if you have Test::More 0.78 ... Yes (0.98)
+Checking if you have Fcntl 0 ... Yes (1.11)
+Checking if you have Storable 2.04 ... Yes (2.41)
+Checking if you have Module::Runtime 0 ... No
+Checking if you have MRO::Compat 0.11 ... No
+Checking if you have base 0 ... Yes (2.18)
+Checking if you have IO::File 1.09 ... Yes (1.16)
+Checking if you have overload 0 ... Yes (1.22)
+Checking if you have File::Find 0 ... Yes (1.23)
+Checking if you have constant 0 ... Yes (1.27)
+Checking if you have warnings 0 ... Yes (1.18)
+Checking if you have Test::Exception 0.25 ... No
+Checking if you have Attribute::Handlers 0.77 ... Yes (0.94)
+Checking if you have Test::Builder 0.78 ... Yes (0.98)
+Checking if you have strict 0 ... Yes (1.07)
+Checking if you have Test::Builder::Tester 1.02 ... Yes (1.22)
+Checking if you have Carp 0 ... Yes (1.29)
+Checking if you have File::Spec 0 ... Yes (3.40)
+==> Found dependencies: Try::Tiny, Module::Runtime, MRO::Compat, Test::Exception
+Searching Try::Tiny on cpanmetadb ...
+--> Working on Try::Tiny
+Fetching http://www.cpan.org/authors/id/D/DO/DOY/Try-Tiny-0.22.tar.gz
+-> OK
+Unpacking Try-Tiny-0.22.tar.gz
+Entering Try-Tiny-0.22
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.30 ... Yes (6.66)
+Configuring Try-Tiny-0.22
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Try::Tiny
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test::More 0 ... Yes (0.98)
+Checking if you have constant 0 ... Yes (1.27)
+Checking if you have Exporter 5.57 ... Yes (5.68)
+Checking if you have IPC::Open3 0 ... Yes (1.13)
+Checking if you have IO::Handle 0 ... Yes (1.34)
+Checking if you have if 0 ... Yes (0.0602)
+Checking if you have strict 0 ... Yes (1.07)
+Checking if you have Carp 0 ... Yes (1.29)
+Checking if you have File::Spec 0 ... Yes (3.40)
+Checking if you have warnings 0 ... Yes (1.18)
+-> FAIL Can't configure the distribution. You probably need to have 'make'. See /home/ubuntu/.cpanm/work/1444155265.4263/build.log for details.
+Searching Module::Runtime on cpanmetadb ...
+--> Working on Module::Runtime
+Fetching http://www.cpan.org/authors/id/Z/ZE/ZEFRAM/Module-Runtime-0.014.tar.gz
+-> OK
+Unpacking Module-Runtime-0.014.tar.gz
+Entering Module-Runtime-0.014
+Checking configure dependencies from META.json
+Checking if you have Module::Build 0 ... Yes (0.4003)
+Checking if you have warnings 0 ... Yes (1.18)
+Checking if you have strict 0 ... Yes (1.07)
+Checking if you have Module::Build 0.36 ... Yes (0.4003)
+Configuring Module-Runtime-0.014
+Running Build.PL
+Created MYMETA.yml and MYMETA.json
+Creating new 'Build' script for 'Module-Runtime' version '0.014'
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test::More 0 ... Yes (0.98)
+Checking if you have strict 0 ... Yes (1.07)
+Checking if you have warnings 0 ... Yes (1.18)
+Checking if you have Module::Build 0 ... Yes (0.4003)
+Building and testing Module-Runtime-0.014
+Building Module-Runtime
+t/cmn.t ............. ok
+t/dependency.t ...... ok
+t/import_error.t .... ok
+t/ivmn.t ............ ok
+t/ivms.t ............ ok
+t/mnf.t ............. ok
+t/pod_cvg.t ......... skipped: Test::Pod::Coverage not available
+t/pod_syn.t ......... skipped: Test::Pod not available
+t/rm.t .............. ok
+t/taint.t ........... ok
+t/um.t .............. ok
+t/upo.t ............. ok
+t/upo_overridden.t .. ok
+All tests successful.
+Files=13, Tests=365,  0 wallclock secs ( 0.06 usr  0.01 sys +  0.22 cusr  0.05 csys =  0.34 CPU)
+Result: PASS
+Building Module-Runtime
+Installing /usr/local/share/perl/5.18.2/Module/Runtime.pm
+Installing /usr/local/man/man3/Module::Runtime.3pm
+-> OK
+Successfully installed Module-Runtime-0.014
+Installing /usr/local/share/perl/5.18.2/x86_64-linux-gnu-thread-multi/.meta/Module-Runtime-0.014/install.json
+Installing /usr/local/share/perl/5.18.2/x86_64-linux-gnu-thread-multi/.meta/Module-Runtime-0.014/MYMETA.json
+Searching MRO::Compat on cpanmetadb ...
+--> Working on MRO::Compat
+Fetching http://www.cpan.org/authors/id/B/BO/BOBTFISH/MRO-Compat-0.12.tar.gz
+-> OK
+Unpacking MRO-Compat-0.12.tar.gz
+Entering MRO-Compat-0.12
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 6.59 ... Yes (6.66)
+Configuring MRO-Compat-0.12
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for MRO::Compat
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 6.59 ... Yes (6.66)
+Checking if you have Test::More 0.47 ... Yes (0.98)
+-> FAIL Can't configure the distribution. You probably need to have 'make'. See /home/ubuntu/.cpanm/work/1444155265.4263/build.log for details.
+Already tried Test::Exception. Skipping.
+-> FAIL Installing the dependencies failed: Module 'Test::Exception' is not installed, Module 'MRO::Compat' is not installed, Module 'Try::Tiny' is not installed
+-> FAIL Bailing out the installation for Test-Class-0.50.
+Searching Mail::Address on cpanmetadb ...
+Already tried MailTools-2.14. Skipping.
+Searching LWP::Protocol::https on cpanmetadb ...
+--> Working on LWP::Protocol::https
+Fetching http://www.cpan.org/authors/id/M/MS/MSCHILLI/LWP-Protocol-https-6.06.tar.gz
+-> OK
+Unpacking LWP-Protocol-https-6.06.tar.gz
+Entering LWP-Protocol-https-6.06
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring LWP-Protocol-https-6.06
+Running Makefile.PL
+Warning: prerequisite IO::Socket::SSL 1.54 not found.
+Warning: prerequisite LWP::UserAgent 6.06 not found.
+Warning: prerequisite Mozilla::CA 20110101 not found.
+Warning: prerequisite Net::HTTPS 6 not found.
+Checking if your kit is complete...
+Looks good
+Writing Makefile for LWP::Protocol::https
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Mozilla::CA 20110101 ... No
+Checking if you have LWP::UserAgent 6.06 ... No
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have Net::HTTPS 6 ... No
+Checking if you have IO::Socket::SSL 1.54 ... No
+==> Found dependencies: Mozilla::CA, LWP::UserAgent, Net::HTTPS, IO::Socket::SSL
+Already tried Mozilla::CA. Skipping.
+Already tried LWP::UserAgent. Skipping.
+Searching Net::HTTPS on cpanmetadb ...
+Already tried Net-HTTP-6.09. Skipping.
+Already tried IO::Socket::SSL. Skipping.
+-> FAIL Installing the dependencies failed: Module 'Net::HTTPS' is not installed, Module 'IO::Socket::SSL' is not installed, Module 'LWP::UserAgent' is not installed, Module 'Mozilla::CA' is not installed
+-> FAIL Bailing out the installation for LWP-Protocol-https-6.06.
+-> FAIL Installing the dependencies failed: Module 'LWP::Protocol::https' is not installed, Module 'Mail::Address' is not installed, Module 'Test::Class::Load' is not installed, Module 'Net::SMTP::TLS' is not installed, Module 'MIME::Entity' is not installed, Module 'Test::MockObject' is not installed, Module 'JSON' is not installed, Module 'URI::Escape' is not installed, Module 'LWP::UserAgent' is not installed, Module 'Test::MockModule' is not installed
+-> FAIL Bailing out the installation for SendGrid-1.3.
+1 distribution installed

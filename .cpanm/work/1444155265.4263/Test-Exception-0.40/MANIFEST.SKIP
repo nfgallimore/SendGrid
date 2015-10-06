@@ -1,0 +1,6 @@
+#!include_default
+
+.ackrc
+Test-Exception-.*/
+Test-Exception-.*.tar.gz
+todo.txt

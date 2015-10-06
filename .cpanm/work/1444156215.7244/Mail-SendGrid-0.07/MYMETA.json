@@ -1,0 +1,55 @@
+{
+   "abstract" : "interface to SendGrid.com mail gateway APIs",
+   "author" : [
+      "Neil Bowers <neilb@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.008, CPAN::Meta::Converter version 2.133380",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Mail-SendGrid",
+   "prereqs" : {
+      "build" : {
+         "requires" : {}
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : "1.20",
+            "HTTP::Tiny" : "0.013",
+            "IO::Socket::SSL" : "1.44",
+            "JSON" : "2.53",
+            "Mouse" : "0.94",
+            "URI::Escape" : "3.30",
+            "strict" : "0",
+            "warnings" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0.88"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/neilbowers/Mail-SendGrid/issues"
+      },
+      "homepage" : "http://search.cpan.org/dist/Mail-SendGrid/",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/neilbowers/Mail-SendGrid.git"
+      }
+   },
+   "version" : "0.07"
+}

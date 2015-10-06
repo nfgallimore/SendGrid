@@ -1,0 +1,14 @@
+<SOFTPKG NAME="MailTools" VERSION="2.14">
+    <ABSTRACT>Various e-mail related modules</ABSTRACT>
+    <AUTHOR>Mark Overmeer &lt;perl@overmeer.net&gt;</AUTHOR>
+    <IMPLEMENTATION>
+        <REQUIRE NAME="Date::Format" />
+        <REQUIRE NAME="Date::Parse" />
+        <REQUIRE NAME="IO::Handle" />
+        <REQUIRE NAME="Net::Domain" VERSION="1.05" />
+        <REQUIRE VERSION="1.03" NAME="Net::SMTP" />
+        <REQUIRE NAME="Test::More" />
+        <ARCHITECTURE NAME="x86_64-linux-gnu-thread-multi-5.18" />
+        <CODEBASE HREF="" />
+    </IMPLEMENTATION>
+</SOFTPKG>

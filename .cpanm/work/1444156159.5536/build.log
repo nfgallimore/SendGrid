@@ -1,0 +1,694 @@
+cpanm (App::cpanminus) 1.7001 on perl 5.018002 built for x86_64-linux-gnu-thread-multi
+Work directory is /home/ubuntu/.cpanm/work/1444156159.5536
+You have make /usr/bin/make
+You have /usr/bin/wget
+You have /bin/tar: tar (GNU tar) 1.27.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by John Gilmore and Jay Fenlason.
+Searching MIME::Entity on cpanmetadb ...
+--> Working on MIME::Entity
+Fetching http://www.cpan.org/authors/id/D/DS/DSKOLL/MIME-tools-5.507.tar.gz
+-> OK
+Unpacking MIME-tools-5.507.tar.gz
+Entering MIME-tools-5.507
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 6.59 ... Yes (6.66)
+Configuring MIME-tools-5.507
+Running Makefile.PL
+Warning: prerequisite Mail::Field 1.05 not found.
+Warning: prerequisite Mail::Header 1.01 not found.
+Warning: prerequisite Mail::Internet 1.0203 not found.
+Warning: prerequisite Test::Deep 0 not found.
+Checking if your kit is complete...
+Looks good
+Writing Makefile for MIME::Tools
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have IO::File 1.13 ... Yes (1.16)
+Checking if you have Test::More 0 ... Yes (0.98)
+Checking if you have ExtUtils::MakeMaker 6.59 ... Yes (6.66)
+Checking if you have Mail::Internet 1.0203 ... No
+Checking if you have Mail::Field 1.05 ... No
+Checking if you have File::Spec 0.6 ... Yes (3.40)
+Checking if you have File::Temp 0.18 ... Yes (0.23)
+Checking if you have Mail::Header 1.01 ... No
+Checking if you have Test::Deep 0 ... No
+Checking if you have File::Path 1 ... Yes (2.09)
+Checking if you have MIME::Base64 2.2 ... Yes (3.13)
+Checking if you have IO::Handle 0 ... Yes (1.34)
+==> Found dependencies: Mail::Internet, Mail::Field, Mail::Header, Test::Deep
+Searching Mail::Internet on cpanmetadb ...
+--> Working on Mail::Internet
+Fetching http://www.cpan.org/authors/id/M/MA/MARKOV/MailTools-2.14.tar.gz
+-> OK
+Unpacking MailTools-2.14.tar.gz
+Entering MailTools-2.14
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring MailTools-2.14
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Mail
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have IO::Handle 0 ... Yes (1.34)
+Checking if you have Net::SMTP 1.03 ... Yes (2.31)
+Checking if you have Net::Domain 1.05 ... Yes (2.20)
+Checking if you have Date::Parse 0 ... Yes (2.30)
+Checking if you have Date::Format 0 ... Yes (2.24)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have Test::More 0 ... Yes (0.98)
+Building and testing MailTools-2.14
+cp lib/Mail/Mailer/rfc822.pm blib/lib/Mail/Mailer/rfc822.pm
+cp lib/Mail/Field/AddrList.pod blib/lib/Mail/Field/AddrList.pod
+cp lib/Mail/Mailer/qmail.pm blib/lib/Mail/Mailer/qmail.pm
+cp lib/Mail/Util.pod blib/lib/Mail/Util.pod
+cp lib/Mail/Send.pm blib/lib/Mail/Send.pm
+cp lib/Mail/Header.pm blib/lib/Mail/Header.pm
+cp lib/Mail/Address.pm blib/lib/Mail/Address.pm
+cp lib/Mail/Header.pod blib/lib/Mail/Header.pod
+cp lib/Mail/Field.pod blib/lib/Mail/Field.pod
+cp lib/Mail/Mailer.pod blib/lib/Mail/Mailer.pod
+cp lib/Mail/Send.pod blib/lib/Mail/Send.pod
+cp lib/Mail/Internet.pod blib/lib/Mail/Internet.pod
+cp lib/Mail/Filter.pm blib/lib/Mail/Filter.pm
+cp lib/Mail/Cap.pm blib/lib/Mail/Cap.pm
+cp lib/Mail/Mailer/testfile.pm blib/lib/Mail/Mailer/testfile.pm
+cp lib/Mail/Mailer/smtps.pm blib/lib/Mail/Mailer/smtps.pm
+cp lib/Mail/Mailer.pm blib/lib/Mail/Mailer.pm
+cp lib/Mail/Address.pod blib/lib/Mail/Address.pod
+cp lib/Mail/Field/Date.pod blib/lib/Mail/Field/Date.pod
+cp lib/Mail/Mailer/sendmail.pm blib/lib/Mail/Mailer/sendmail.pm
+cp lib/Mail/Field/Date.pm blib/lib/Mail/Field/Date.pm
+cp lib/Mail/Field/AddrList.pm blib/lib/Mail/Field/AddrList.pm
+cp lib/Mail/Field/Generic.pod blib/lib/Mail/Field/Generic.pod
+cp lib/Mail/Field/Generic.pm blib/lib/Mail/Field/Generic.pm
+cp lib/Mail/Cap.pod blib/lib/Mail/Cap.pod
+cp lib/Mail/Internet.pm blib/lib/Mail/Internet.pm
+cp lib/Mail/Mailer/smtp.pm blib/lib/Mail/Mailer/smtp.pm
+cp lib/Mail/Field.pm blib/lib/Mail/Field.pm
+cp lib/Mail/Util.pm blib/lib/Mail/Util.pm
+cp lib/Mail/Filter.pod blib/lib/Mail/Filter.pod
+Manifying blib/man3/Mail::Internet.3pm
+Manifying blib/man3/Mail::Field::Generic.3pm
+Manifying blib/man3/Mail::Util.3pm
+Manifying blib/man3/Mail::Address.3pm
+Manifying blib/man3/Mail::Mailer.3pm
+Manifying blib/man3/Mail::Cap.3pm
+Manifying blib/man3/Mail::Field::Date.3pm
+Manifying blib/man3/Mail::Header.3pm
+Manifying blib/man3/Mail::Filter.3pm
+Manifying blib/man3/Mail::Field::AddrList.3pm
+Manifying blib/man3/Mail::Field.3pm
+Manifying blib/man3/Mail::Send.3pm
+PERL_DL_NONLAZY=1 /usr/bin/perl "-MExtUtils::Command::MM" "-e" "test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/extract.t ... ok
+t/header.t .... ok
+t/internet.t .. ok
+t/mailcap.t ... ok
+No real MTA found, using 'testfile' at /home/ubuntu/.cpanm/work/1444156159.5536/MailTools-2.14/blib/lib/Mail/Mailer.pm line 108.
+t/mailer.t .... ok
+t/require.t ... ok
+t/send.t ...... ok
+All tests successful.
+Files=7, Tests=108,  1 wallclock secs ( 0.02 usr  0.00 sys +  0.07 cusr  0.02 csys =  0.11 CPU)
+Result: PASS
+Manifying blib/man3/Mail::Internet.3pm
+Manifying blib/man3/Mail::Field::Generic.3pm
+Manifying blib/man3/Mail::Util.3pm
+Manifying blib/man3/Mail::Address.3pm
+Manifying blib/man3/Mail::Mailer.3pm
+Manifying blib/man3/Mail::Cap.3pm
+Manifying blib/man3/Mail::Field::Date.3pm
+Manifying blib/man3/Mail::Header.3pm
+Manifying blib/man3/Mail::Filter.3pm
+Manifying blib/man3/Mail::Field::AddrList.3pm
+Manifying blib/man3/Mail::Field.3pm
+Manifying blib/man3/Mail::Send.3pm
+Installing /usr/local/share/perl/5.18.2/Mail/Address.pm
+Installing /usr/local/share/perl/5.18.2/Mail/Mailer.pod
+Installing /usr/local/share/perl/5.18.2/Mail/Util.pm
+Installing /usr/local/share/perl/5.18.2/Mail/Filter.pm
+Installing /usr/local/share/perl/5.18.2/Mail/Internet.pod
+Installing /usr/local/share/perl/5.18.2/Mail/Header.pod
+Installing /usr/local/share/perl/5.18.2/Mail/Cap.pm
+Installing /usr/local/share/perl/5.18.2/Mail/Util.pod
+Installing /usr/local/share/perl/5.18.2/Mail/Address.pod
+Installing /usr/local/share/perl/5.18.2/Mail/Mailer.pm
+Installing /usr/local/share/perl/5.18.2/Mail/Cap.pod
+Installing /usr/local/share/perl/5.18.2/Mail/Header.pm
+Installing /usr/local/share/perl/5.18.2/Mail/Field.pod
+Installing /usr/local/share/perl/5.18.2/Mail/Filter.pod
+Installing /usr/local/share/perl/5.18.2/Mail/Internet.pm
+Installing /usr/local/share/perl/5.18.2/Mail/Field.pm
+Installing /usr/local/share/perl/5.18.2/Mail/Send.pm
+Installing /usr/local/share/perl/5.18.2/Mail/Send.pod
+Installing /usr/local/share/perl/5.18.2/Mail/Field/Date.pm
+Installing /usr/local/share/perl/5.18.2/Mail/Field/Date.pod
+Installing /usr/local/share/perl/5.18.2/Mail/Field/AddrList.pod
+Installing /usr/local/share/perl/5.18.2/Mail/Field/Generic.pod
+Installing /usr/local/share/perl/5.18.2/Mail/Field/AddrList.pm
+Installing /usr/local/share/perl/5.18.2/Mail/Field/Generic.pm
+Installing /usr/local/share/perl/5.18.2/Mail/Mailer/qmail.pm
+Installing /usr/local/share/perl/5.18.2/Mail/Mailer/smtp.pm
+Installing /usr/local/share/perl/5.18.2/Mail/Mailer/rfc822.pm
+Installing /usr/local/share/perl/5.18.2/Mail/Mailer/smtps.pm
+Installing /usr/local/share/perl/5.18.2/Mail/Mailer/testfile.pm
+Installing /usr/local/share/perl/5.18.2/Mail/Mailer/sendmail.pm
+Installing /usr/local/man/man3/Mail::Cap.3pm
+Installing /usr/local/man/man3/Mail::Util.3pm
+Installing /usr/local/man/man3/Mail::Address.3pm
+Installing /usr/local/man/man3/Mail::Field::Date.3pm
+Installing /usr/local/man/man3/Mail::Mailer.3pm
+Installing /usr/local/man/man3/Mail::Filter.3pm
+Installing /usr/local/man/man3/Mail::Header.3pm
+Installing /usr/local/man/man3/Mail::Field::Generic.3pm
+Installing /usr/local/man/man3/Mail::Internet.3pm
+Installing /usr/local/man/man3/Mail::Field.3pm
+Installing /usr/local/man/man3/Mail::Send.3pm
+Installing /usr/local/man/man3/Mail::Field::AddrList.3pm
+Appending installation info to /usr/local/lib/perl/5.18.2/perllocal.pod
+-> OK
+Successfully installed MailTools-2.14
+Installing /usr/local/share/perl/5.18.2/x86_64-linux-gnu-thread-multi/.meta/MailTools-2.14/install.json
+Installing /usr/local/share/perl/5.18.2/x86_64-linux-gnu-thread-multi/.meta/MailTools-2.14/MYMETA.json
+Searching Mail::Field on cpanmetadb ...
+Already tried MailTools-2.14. Skipping.
+Searching Mail::Header on cpanmetadb ...
+Already tried MailTools-2.14. Skipping.
+Searching Test::Deep on cpanmetadb ...
+--> Working on Test::Deep
+Fetching http://www.cpan.org/authors/id/R/RJ/RJBS/Test-Deep-0.119.tar.gz
+-> OK
+Unpacking Test-Deep-0.119.tar.gz
+Entering Test-Deep-0.119
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring Test-Deep-0.119
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Test::Deep
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have List::Util 1.09 ... Yes (1.27)
+Checking if you have Test::Tester 0.04 ... No
+Checking if you have Scalar::Util 1.09 ... Yes (1.27)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Checking if you have Test::Builder 0 ... Yes (0.98)
+Checking if you have Test::More 0.88 ... Yes (0.98)
+==> Found dependencies: Test::Tester
+Searching Test::Tester on cpanmetadb ...
+--> Working on Test::Tester
+Fetching http://www.cpan.org/authors/id/E/EX/EXODIST/Test-Simple-1.001014.tar.gz
+-> OK
+Unpacking Test-Simple-1.001014.tar.gz
+Entering Test-Simple-1.001014
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Configuring Test-Simple-1.001014
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Writing Makefile for Test::Simple
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Scalar::Util 1.13 ... Yes (1.27)
+Checking if you have Test::Harness 2.03 ... Yes (3.26)
+Checking if you have ExtUtils::MakeMaker 0 ... Yes (6.66)
+Building and testing Test-Simple-1.001014
+cp lib/Test/More.pm blib/lib/Test/More.pm
+cp lib/Test/Tester/Capture.pm blib/lib/Test/Tester/Capture.pm
+cp lib/Test/Tester/Delegate.pm blib/lib/Test/Tester/Delegate.pm
+cp lib/Test/Tester/CaptureRunner.pm blib/lib/Test/Tester/CaptureRunner.pm
+cp lib/Test/Simple.pm blib/lib/Test/Simple.pm
+cp lib/ok.pm blib/lib/ok.pm
+cp lib/Test/Builder/IO/Scalar.pm blib/lib/Test/Builder/IO/Scalar.pm
+cp lib/Test/Builder/Tester/Color.pm blib/lib/Test/Builder/Tester/Color.pm
+cp lib/Test/use/ok.pm blib/lib/Test/use/ok.pm
+cp lib/Test/Tester.pm blib/lib/Test/Tester.pm
+cp lib/Test/Builder/Tester.pm blib/lib/Test/Builder/Tester.pm
+cp lib/Test/Builder/Module.pm blib/lib/Test/Builder/Module.pm
+cp lib/Test/Builder.pm blib/lib/Test/Builder.pm
+cp lib/Test/Tutorial.pod blib/lib/Test/Tutorial.pod
+Manifying blib/man3/Test::More.3pm
+Manifying blib/man3/Test::Tester.3pm
+Manifying blib/man3/Test::Simple.3pm
+Manifying blib/man3/Test::Builder::Tester.3pm
+Manifying blib/man3/Test::Tester::Capture.3pm
+Manifying blib/man3/Test::Tester::CaptureRunner.3pm
+Manifying blib/man3/Test::Builder.3pm
+Manifying blib/man3/ok.3pm
+Manifying blib/man3/Test::use::ok.3pm
+Manifying blib/man3/Test::Builder::Module.3pm
+Manifying blib/man3/Test::Tutorial.3pm
+Manifying blib/man3/Test::Builder::IO::Scalar.3pm
+Manifying blib/man3/Test::Builder::Tester::Color.3pm
+PERL_DL_NONLAZY=1 /usr/bin/perl "-MExtUtils::Command::MM" "-e" "test_harness(0, 'blib/lib', 'blib/arch')" t/*.t t/*/*.t
+You should load Test::Tester before Test::Builder (or anything that loads Test::Builder) at Test/Tester.pm line 9.
+t/00compile.t ........................... ok
+t/00test_harness_check.t ................ ok
+t/01-basic.t ............................ ok
+t/478-cmp_ok_hash.t ..................... ok
+t/auto.t ................................ ok
+t/bad_plan.t ............................ ok
+t/bail_out.t ............................ ok
+t/BEGIN_require_ok.t .................... ok
+t/BEGIN_use_ok.t ........................ ok
+t/buffer.t .............................. ok
+t/Builder/Builder.t ..................... ok
+t/Builder/carp.t ........................ ok
+t/Builder/create.t ...................... ok
+t/Builder/current_test.t ................ ok
+t/Builder/current_test_without_plan.t ... ok
+t/Builder/details.t ..................... ok
+t/Builder/done_testing.t ................ ok
+t/Builder/done_testing_double.t ......... ok
+t/Builder/done_testing_plan_mismatch.t .. ok
+t/Builder/done_testing_with_no_plan.t ... ok
+t/Builder/done_testing_with_number.t .... ok
+t/Builder/done_testing_with_plan.t ...... ok
+t/Builder/fork_with_new_stdout.t ........ ok
+t/Builder/has_plan.t .................... ok
+t/Builder/has_plan2.t ................... ok
+t/Builder/is_fh.t ....................... ok
+t/Builder/is_passing.t .................. ok
+t/Builder/maybe_regex.t ................. ok
+t/Builder/no_diag.t ..................... ok
+t/Builder/no_ending.t ................... ok
+t/Builder/no_header.t ................... ok
+t/Builder/no_plan_at_all.t .............. ok
+t/Builder/ok_obj.t ...................... ok
+t/Builder/output.t ...................... ok
+t/Builder/reset.t ....................... ok
+t/Builder/reset_outputs.t ............... ok
+t/Builder/try.t ......................... ok
+t/c_flag.t .............................. ok
+t/capture.t ............................. ok
+t/check_tests.t ......................... ok
+t/circular_data.t ....................... ok
+t/cmp_ok.t .............................. ok
+t/dependents.t .......................... skipped: Dependents only tested when releasing
+t/depth.t ............................... ok
+t/diag.t ................................ ok
+t/died.t ................................ ok
+t/dont_overwrite_die_handler.t .......... ok
+t/eq_set.t .............................. ok
+t/exit.t ................................ ok
+t/explain.t ............................. ok
+t/extra.t ............................... ok
+t/extra_one.t ........................... ok
+t/fail-like.t ........................... ok
+t/fail-more.t ........................... ok
+t/fail.t ................................ ok
+t/fail_one.t ............................ ok
+t/filehandles.t ......................... ok
+t/fork.t ................................ ok
+t/harness_active.t ...................... ok
+t/import.t .............................. ok
+t/is_deeply_dne_bug.t ................... ok
+t/is_deeply_fail.t ...................... ok
+t/is_deeply_with_threads.t .............. skipped: many perls have broken threads.  Enable with AUTHOR_TESTING.
+t/missing.t ............................. ok
+t/More.t ................................ ok
+t/new_ok.t .............................. ok
+t/no_plan.t ............................. ok
+t/no_tests.t ............................ ok
+t/note.t ................................ ok
+t/overload.t ............................ ok
+t/overload_threads.t .................... ok
+t/plan.t ................................ ok
+t/plan_bad.t ............................ ok
+t/plan_is_noplan.t ...................... ok
+t/plan_no_plan.t ........................ ok
+t/plan_shouldnt_import.t ................ ok
+t/plan_skip_all.t ....................... skipped: Just testing plan & skip_all
+t/require_ok.t .......................... ok
+t/run_test.t ............................ ok
+t/simple.t .............................. ok
+t/Simple/load.t ......................... ok
+t/skip.t ................................ ok
+t/skipall.t ............................. ok
+t/subtest/args.t ........................ ok
+t/subtest/bail_out.t .................... ok
+t/subtest/basic.t ....................... ok
+t/subtest/die.t ......................... ok
+t/subtest/do.t .......................... ok
+t/subtest/exceptions.t .................. ok
+t/subtest/fork.t ........................ ok
+t/subtest/implicit_done.t ............... ok
+t/subtest/line_numbers.t ................ ok
+t/subtest/plan.t ........................ ok
+t/subtest/predicate.t ................... ok
+t/subtest/singleton.t ................... ok
+t/subtest/threads.t ..................... ok
+t/subtest/todo.t ........................ ok
+t/subtest/wstat.t ....................... ok
+t/tbm_doesnt_set_exported_to.t .......... ok
+t/Tester/tbt_01basic.t .................. ok
+t/Tester/tbt_02fhrestore.t .............. ok
+t/Tester/tbt_03die.t .................... ok
+t/Tester/tbt_04line_num.t ............... ok
+t/Tester/tbt_05faildiag.t ............... ok
+t/Tester/tbt_06errormess.t .............. ok
+t/Tester/tbt_07args.t ................... ok
+t/Tester/tbt_08subtest.t ................ ok
+t/Tester/tbt_09do.t ..................... ok
+t/thread_taint.t ........................ ok
+t/threads.t ............................. ok
+t/todo.t ................................ ok
+t/undef.t ............................... ok
+t/use_ok.t .............................. ok
+t/useing.t .............................. ok
+t/utf8.t ................................ ok
+t/versions.t ............................ ok
+t/xt/dependents.t ....................... skipped: Dependents only tested when releasing
+t/xxx-changes_updated.t ................. skipped: Only tested when releasing
+All tests successful.
+Files=118, Tests=1378,  3 wallclock secs ( 0.33 usr  0.05 sys +  2.04 cusr  0.69 csys =  3.11 CPU)
+Result: PASS
+Manifying blib/man3/Test::More.3pm
+Manifying blib/man3/Test::Tester.3pm
+Manifying blib/man3/Test::Simple.3pm
+Manifying blib/man3/Test::Builder::Tester.3pm
+Manifying blib/man3/Test::Tester::Capture.3pm
+Manifying blib/man3/Test::Tester::CaptureRunner.3pm
+Manifying blib/man3/Test::Builder.3pm
+Manifying blib/man3/ok.3pm
+Manifying blib/man3/Test::use::ok.3pm
+Manifying blib/man3/Test::Builder::Module.3pm
+Manifying blib/man3/Test::Tutorial.3pm
+Manifying blib/man3/Test::Builder::IO::Scalar.3pm
+Manifying blib/man3/Test::Builder::Tester::Color.3pm
+Installing /usr/local/share/perl/5.18.2/ok.pm
+Installing /usr/local/share/perl/5.18.2/Test/Simple.pm
+Installing /usr/local/share/perl/5.18.2/Test/More.pm
+Installing /usr/local/share/perl/5.18.2/Test/Builder.pm
+Installing /usr/local/share/perl/5.18.2/Test/Tester.pm
+Installing /usr/local/share/perl/5.18.2/Test/Tutorial.pod
+Installing /usr/local/share/perl/5.18.2/Test/Tester/Capture.pm
+Installing /usr/local/share/perl/5.18.2/Test/Tester/Delegate.pm
+Installing /usr/local/share/perl/5.18.2/Test/Tester/CaptureRunner.pm
+Installing /usr/local/share/perl/5.18.2/Test/use/ok.pm
+Installing /usr/local/share/perl/5.18.2/Test/Builder/Tester.pm
+Installing /usr/local/share/perl/5.18.2/Test/Builder/Module.pm
+Installing /usr/local/share/perl/5.18.2/Test/Builder/Tester/Color.pm
+Installing /usr/local/share/perl/5.18.2/Test/Builder/IO/Scalar.pm
+Installing /usr/local/man/man3/Test::use::ok.3pm
+Installing /usr/local/man/man3/ok.3pm
+Installing /usr/local/man/man3/Test::Builder::Tester::Color.3pm
+Installing /usr/local/man/man3/Test::More.3pm
+Installing /usr/local/man/man3/Test::Builder::IO::Scalar.3pm
+Installing /usr/local/man/man3/Test::Tester::CaptureRunner.3pm
+Installing /usr/local/man/man3/Test::Simple.3pm
+Installing /usr/local/man/man3/Test::Tester::Capture.3pm
+Installing /usr/local/man/man3/Test::Builder::Module.3pm
+Installing /usr/local/man/man3/Test::Builder.3pm
+Installing /usr/local/man/man3/Test::Builder::Tester.3pm
+Installing /usr/local/man/man3/Test::Tester.3pm
+Installing /usr/local/man/man3/Test::Tutorial.3pm
+Appending installation info to /usr/local/lib/perl/5.18.2/perllocal.pod
+-> OK
+Successfully installed Test-Simple-1.001014
+Installing /usr/local/share/perl/5.18.2/x86_64-linux-gnu-thread-multi/.meta/Test-Simple-1.001014/install.json
+Installing /usr/local/share/perl/5.18.2/x86_64-linux-gnu-thread-multi/.meta/Test-Simple-1.001014/MYMETA.json
+Building and testing Test-Deep-0.119
+cp lib/Test/Deep/Code.pm blib/lib/Test/Deep/Code.pm
+cp lib/Test/Deep/RegexpRef.pm blib/lib/Test/Deep/RegexpRef.pm
+cp lib/Test/Deep/ArrayElementsOnly.pm blib/lib/Test/Deep/ArrayElementsOnly.pm
+cp lib/Test/Deep/Regexp.pm blib/lib/Test/Deep/Regexp.pm
+cp lib/Test/Deep/Hash.pm blib/lib/Test/Deep/Hash.pm
+cp lib/Test/Deep/RefType.pm blib/lib/Test/Deep/RefType.pm
+cp lib/Test/Deep/RegexpMatches.pm blib/lib/Test/Deep/RegexpMatches.pm
+cp lib/Test/Deep/HashKeysOnly.pm blib/lib/Test/Deep/HashKeysOnly.pm
+cp lib/Test/Deep/Cache/Simple.pm blib/lib/Test/Deep/Cache/Simple.pm
+cp lib/Test/Deep/Cmp.pm blib/lib/Test/Deep/Cmp.pm
+cp lib/Test/Deep/Any.pm blib/lib/Test/Deep/Any.pm
+cp lib/Test/Deep/Array.pm blib/lib/Test/Deep/Array.pm
+cp lib/Test/Deep/ArrayLengthOnly.pm blib/lib/Test/Deep/ArrayLengthOnly.pm
+cp lib/Test/Deep/HashElements.pm blib/lib/Test/Deep/HashElements.pm
+cp lib/Test/Deep/Blessed.pm blib/lib/Test/Deep/Blessed.pm
+cp lib/Test/Deep/ListMethods.pm blib/lib/Test/Deep/ListMethods.pm
+cp lib/Test/Deep/MM.pm blib/lib/Test/Deep/MM.pm
+cp lib/Test/Deep/NoTest.pm blib/lib/Test/Deep/NoTest.pm
+cp lib/Test/Deep/Isa.pm blib/lib/Test/Deep/Isa.pm
+cp lib/Test/Deep/Cache.pm blib/lib/Test/Deep/Cache.pm
+cp lib/Test/Deep/Stack.pm blib/lib/Test/Deep/Stack.pm
+cp lib/Test/Deep/Methods.pm blib/lib/Test/Deep/Methods.pm
+cp lib/Test/Deep/Number.pm blib/lib/Test/Deep/Number.pm
+cp lib/Test/Deep/HashEach.pm blib/lib/Test/Deep/HashEach.pm
+cp lib/Test/Deep/ArrayEach.pm blib/lib/Test/Deep/ArrayEach.pm
+cp lib/Test/Deep/Class.pm blib/lib/Test/Deep/Class.pm
+cp lib/Test/Deep/Ref.pm blib/lib/Test/Deep/Ref.pm
+cp lib/Test/Deep/RegexpOnly.pm blib/lib/Test/Deep/RegexpOnly.pm
+cp lib/Test/Deep/ArrayLength.pm blib/lib/Test/Deep/ArrayLength.pm
+cp lib/Test/Deep/HashKeys.pm blib/lib/Test/Deep/HashKeys.pm
+cp lib/Test/Deep/Shallow.pm blib/lib/Test/Deep/Shallow.pm
+cp lib/Test/Deep/Obj.pm blib/lib/Test/Deep/Obj.pm
+cp lib/Test/Deep/ScalarRef.pm blib/lib/Test/Deep/ScalarRef.pm
+cp lib/Test/Deep/Set.pm blib/lib/Test/Deep/Set.pm
+cp lib/Test/Deep/RegexpRefOnly.pm blib/lib/Test/Deep/RegexpRefOnly.pm
+cp lib/Test/Deep/ScalarRefOnly.pm blib/lib/Test/Deep/ScalarRefOnly.pm
+cp lib/Test/Deep/Ignore.pm blib/lib/Test/Deep/Ignore.pm
+cp lib/Test/Deep/All.pm blib/lib/Test/Deep/All.pm
+cp lib/Test/Deep/Boolean.pm blib/lib/Test/Deep/Boolean.pm
+cp lib/Test/Deep/String.pm blib/lib/Test/Deep/String.pm
+cp lib/Test/Deep.pm blib/lib/Test/Deep.pm
+cp lib/Test/Deep/RegexpVersion.pm blib/lib/Test/Deep/RegexpVersion.pm
+Manifying blib/man3/Test::Deep.3pm
+Manifying blib/man3/Test::Deep::NoTest.3pm
+PERL_DL_NONLAZY=1 /usr/bin/perl "-MExtUtils::Command::MM" "-e" "test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/all.t ..................... ok
+t/any.t ..................... ok
+t/array.t ................... ok
+t/array_each.t .............. ok
+t/arraylength.t ............. ok
+t/bag.t ..................... ok
+t/bagrecursion.t ............ ok
+t/blessed.t ................. ok
+t/boolean.t ................. ok
+t/cache.t ................... ok
+t/circular.t ................ ok
+t/class.t ................... ok
+t/code.t .................... ok
+t/deep_utils.t .............. ok
+t/descend.t ................. ok
+t/error.t ................... ok
+t/hash.t .................... ok
+t/hash_each.t ............... ok
+t/hashkeys.t ................ ok
+t/ignore.t .................. ok
+t/import.t .................. ok
+t/isa.t ..................... ok
+t/listmethods.t ............. ok
+t/memory.t .................. ok
+t/methods.t ................. ok
+t/notest.t .................. ok
+t/notest_extra.t ............ ok
+t/number.t .................. ok
+t/reftype.t ................. ok
+t/regexp.t .................. ok
+t/regexpref.t ............... ok
+t/rt78288_blessed_object.t .. ok
+t/scalar.t .................. ok
+t/scalarref.t ............... ok
+t/set.t ..................... ok
+t/shallow.t ................. ok
+t/string.t .................. ok
+All tests successful.
+Files=37, Tests=1173,  1 wallclock secs ( 0.17 usr  0.02 sys +  0.95 cusr  0.12 csys =  1.26 CPU)
+Result: PASS
+Installing /usr/local/share/perl/5.18.2/Test/Deep.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/Class.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/ScalarRef.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/All.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/Set.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/Isa.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/HashKeysOnly.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/Number.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/Hash.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/ArrayLengthOnly.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/RegexpVersion.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/MM.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/ListMethods.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/HashElements.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/HashEach.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/RegexpOnly.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/RegexpMatches.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/Ignore.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/Code.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/Any.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/RegexpRefOnly.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/Cache.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/Obj.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/HashKeys.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/Blessed.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/Cmp.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/Regexp.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/Boolean.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/RefType.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/Methods.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/Ref.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/Stack.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/ArrayLength.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/ArrayElementsOnly.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/ArrayEach.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/Shallow.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/Array.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/ScalarRefOnly.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/NoTest.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/RegexpRef.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/String.pm
+Installing /usr/local/share/perl/5.18.2/Test/Deep/Cache/Simple.pm
+Installing /usr/local/man/man3/Test::Deep::NoTest.3pm
+Installing /usr/local/man/man3/Test::Deep.3pm
+Appending installation info to /usr/local/lib/perl/5.18.2/perllocal.pod
+-> OK
+Successfully installed Test-Deep-0.119
+Installing /usr/local/share/perl/5.18.2/x86_64-linux-gnu-thread-multi/.meta/Test-Deep-0.119/install.json
+Installing /usr/local/share/perl/5.18.2/x86_64-linux-gnu-thread-multi/.meta/Test-Deep-0.119/MYMETA.json
+Building and testing MIME-tools-5.507
+cp lib/MIME/Field/ContDisp.pm blib/lib/MIME/Field/ContDisp.pm
+cp lib/MIME/Words.pm blib/lib/MIME/Words.pm
+cp lib/MIME/Field/ContType.pm blib/lib/MIME/Field/ContType.pm
+cp lib/MIME/Parser/Reader.pm blib/lib/MIME/Parser/Reader.pm
+cp lib/MIME/Entity.pm blib/lib/MIME/Entity.pm
+cp lib/MIME/Decoder.pm blib/lib/MIME/Decoder.pm
+cp lib/MIME/WordDecoder.pm blib/lib/MIME/WordDecoder.pm
+cp lib/MIME/Decoder/Gzip64.pm blib/lib/MIME/Decoder/Gzip64.pm
+cp lib/MIME/Decoder/BinHex.pm blib/lib/MIME/Decoder/BinHex.pm
+cp lib/MIME/Body.pm blib/lib/MIME/Body.pm
+cp lib/MIME/Head.pm blib/lib/MIME/Head.pm
+cp lib/MIME/Decoder/Base64.pm blib/lib/MIME/Decoder/Base64.pm
+cp lib/MIME/Tools.pm blib/lib/MIME/Tools.pm
+cp lib/MIME/Parser/Filer.pm blib/lib/MIME/Parser/Filer.pm
+cp lib/MIME/Field/ConTraEnc.pm blib/lib/MIME/Field/ConTraEnc.pm
+cp lib/MIME/Parser.pm blib/lib/MIME/Parser.pm
+cp lib/MIME/Field/ParamVal.pm blib/lib/MIME/Field/ParamVal.pm
+cp lib/MIME/Decoder/QuotedPrint.pm blib/lib/MIME/Decoder/QuotedPrint.pm
+cp lib/MIME/Parser/Results.pm blib/lib/MIME/Parser/Results.pm
+cp lib/MIME/Decoder/Binary.pm blib/lib/MIME/Decoder/Binary.pm
+cp lib/MIME/Decoder/NBit.pm blib/lib/MIME/Decoder/NBit.pm
+cp lib/MIME/Decoder/UU.pm blib/lib/MIME/Decoder/UU.pm
+Manifying blib/man3/MIME::Decoder::QuotedPrint.3pm
+Manifying blib/man3/MIME::Field::ParamVal.3pm
+Manifying blib/man3/MIME::Parser::Reader.3pm
+Manifying blib/man3/MIME::Decoder::NBit.3pm
+Manifying blib/man3/MIME::Parser::Filer.3pm
+Manifying blib/man3/MIME::Decoder.3pm
+Manifying blib/man3/MIME::WordDecoder.3pm
+Manifying blib/man3/MIME::Decoder::UU.3pm
+Manifying blib/man3/MIME::Parser.3pm
+Manifying blib/man3/MIME::Body.3pm
+Manifying blib/man3/MIME::Field::ContDisp.3pm
+Manifying blib/man3/MIME::Field::ContType.3pm
+Manifying blib/man3/MIME::Decoder::Base64.3pm
+Manifying blib/man3/MIME::Decoder::Gzip64.3pm
+Manifying blib/man3/MIME::Head.3pm
+Manifying blib/man3/MIME::Parser::Results.3pm
+Manifying blib/man3/MIME::Field::ConTraEnc.3pm
+Manifying blib/man3/MIME::Entity.3pm
+Manifying blib/man3/MIME::Tools.3pm
+Manifying blib/man3/MIME::Words.3pm
+Manifying blib/man3/MIME::Decoder::Binary.3pm
+Manifying blib/man3/MIME::Decoder::BinHex.3pm
+PERL_DL_NONLAZY=1 /usr/bin/perl "-MExtUtils::Command::MM" "-e" "test_harness(0, 'inc', 'blib/lib', 'blib/arch')" t/*.t
+t/02-kwalitee.t ................... skipped: These tests are for author or release candidate testing
+t/02-pod-coverage.t ............... skipped: Test::Pod::Coverage disabled. TEST_POD_COVERAGE=1 if you want it.
+t/02-pod.t ........................ skipped: Test::Pod 1.00 required for testing POD
+t/99-prepare.t .................... ok
+t/attachment-filename-encoding.t .. ok
+t/Body.t .......................... ok
+t/BodyPrint.t ..................... ok
+# Using gzip: 1
+t/Decoder.t ....................... ok
+t/EmptyPart.t ..................... ok
+t/Entity.t ........................ ok
+t/Filer.t ......................... ok
+t/Gauntlet.t ...................... ok
+t/Head.t .......................... ok
+t/Misc.t .......................... ok
+t/ParamVal.t ...................... ok
+t/Parser.t ........................ ok
+t/ParserEncoded.t ................. ok
+t/ParserPreamble.t ................ ok
+t/Ref.t ........................... ok
+t/Smtpsend.t ...................... ok
+t/ticket-11901.t .................. ok
+t/ticket-22684.t .................. ok
+t/ticket-37139.t .................. ok
+t/ticket-41632.t .................. ok
+t/ticket-43439.t .................. ok
+t/ticket-52924.t .................. ok
+t/ticket-5462.t ................... ok
+t/ticket-60931.t .................. ok
+t/ticket-65681.t .................. ok
+t/ticket-66025.t .................. ok
+t/ticket-71041.t .................. ok
+t/ticket-71677.t .................. ok
+t/ticket-80433.t .................. ok
+t/WordDecoder.t ................... ok
+t/WordEncoder.t ................... ok
+t/Words.t ......................... ok
+All tests successful.
+Files=36, Tests=408,  4 wallclock secs ( 0.09 usr  0.03 sys +  1.82 cusr  0.24 csys =  2.18 CPU)
+Result: PASS
+Installing /usr/local/share/perl/5.18.2/MIME/Tools.pm
+Installing /usr/local/share/perl/5.18.2/MIME/Decoder.pm
+Installing /usr/local/share/perl/5.18.2/MIME/Entity.pm
+Installing /usr/local/share/perl/5.18.2/MIME/Words.pm
+Installing /usr/local/share/perl/5.18.2/MIME/Parser.pm
+Installing /usr/local/share/perl/5.18.2/MIME/Body.pm
+Installing /usr/local/share/perl/5.18.2/MIME/WordDecoder.pm
+Installing /usr/local/share/perl/5.18.2/MIME/Head.pm
+Installing /usr/local/share/perl/5.18.2/MIME/Parser/Filer.pm
+Installing /usr/local/share/perl/5.18.2/MIME/Parser/Results.pm
+Installing /usr/local/share/perl/5.18.2/MIME/Parser/Reader.pm
+Installing /usr/local/share/perl/5.18.2/MIME/Field/ConTraEnc.pm
+Installing /usr/local/share/perl/5.18.2/MIME/Field/ContType.pm
+Installing /usr/local/share/perl/5.18.2/MIME/Field/ParamVal.pm
+Installing /usr/local/share/perl/5.18.2/MIME/Field/ContDisp.pm
+Installing /usr/local/share/perl/5.18.2/MIME/Decoder/Base64.pm
+Installing /usr/local/share/perl/5.18.2/MIME/Decoder/Gzip64.pm
+Installing /usr/local/share/perl/5.18.2/MIME/Decoder/Binary.pm
+Installing /usr/local/share/perl/5.18.2/MIME/Decoder/QuotedPrint.pm
+Installing /usr/local/share/perl/5.18.2/MIME/Decoder/NBit.pm
+Installing /usr/local/share/perl/5.18.2/MIME/Decoder/BinHex.pm
+Installing /usr/local/share/perl/5.18.2/MIME/Decoder/UU.pm
+Installing /usr/local/man/man3/MIME::Decoder.3pm
+Installing /usr/local/man/man3/MIME::Body.3pm
+Installing /usr/local/man/man3/MIME::Field::ContDisp.3pm
+Installing /usr/local/man/man3/MIME::Parser::Results.3pm
+Installing /usr/local/man/man3/MIME::Decoder::Base64.3pm
+Installing /usr/local/man/man3/MIME::Words.3pm
+Installing /usr/local/man/man3/MIME::Entity.3pm
+Installing /usr/local/man/man3/MIME::Decoder::Binary.3pm
+Installing /usr/local/man/man3/MIME::Decoder::BinHex.3pm
+Installing /usr/local/man/man3/MIME::Tools.3pm
+Installing /usr/local/man/man3/MIME::Decoder::UU.3pm
+Installing /usr/local/man/man3/MIME::Field::ParamVal.3pm
+Installing /usr/local/man/man3/MIME::Head.3pm
+Installing /usr/local/man/man3/MIME::Parser::Filer.3pm
+Installing /usr/local/man/man3/MIME::Field::ContType.3pm
+Installing /usr/local/man/man3/MIME::Field::ConTraEnc.3pm
+Installing /usr/local/man/man3/MIME::Parser.3pm
+Installing /usr/local/man/man3/MIME::Decoder::Gzip64.3pm
+Installing /usr/local/man/man3/MIME::WordDecoder.3pm
+Installing /usr/local/man/man3/MIME::Decoder::NBit.3pm
+Installing /usr/local/man/man3/MIME::Parser::Reader.3pm
+Installing /usr/local/man/man3/MIME::Decoder::QuotedPrint.3pm
+Appending installation info to /usr/local/lib/perl/5.18.2/perllocal.pod
+-> OK
+Successfully installed MIME-tools-5.507
+Installing /usr/local/share/perl/5.18.2/x86_64-linux-gnu-thread-multi/.meta/MIME-tools-5.507/install.json
+Installing /usr/local/share/perl/5.18.2/x86_64-linux-gnu-thread-multi/.meta/MIME-tools-5.507/MYMETA.json
+4 distributions installed
